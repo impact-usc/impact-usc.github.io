@@ -26,7 +26,11 @@ permalink: /people/
     {% for person in site.data.people %}
       {% if person.group == 'current' %}
         <article class="person-card">
-          <div class="avatar">{{ person.initials }}</div>
+          {% if person.image %}
+            <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+          {% else %}
+            <div class="avatar">{{ person.initials }}</div>
+          {% endif %}
           <h3>{{ person.name }}</h3>
           <p>{{ person.role }}</p>
           <a href="{{ person.url }}">{{ person.link_label }}</a>
@@ -46,7 +50,11 @@ permalink: /people/
     {% for person in site.data.people %}
       {% if person.group == 'alumni' %}
         <article class="person-card">
-          <div class="avatar">{{ person.initials }}</div>
+          {% if person.image %}
+            <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+          {% else %}
+            <div class="avatar">{{ person.initials }}</div>
+          {% endif %}
           <h3>{{ person.name }}</h3>
           <p>{{ person.role }}</p>
           <a href="{{ person.url }}">{{ person.link_label }}</a>

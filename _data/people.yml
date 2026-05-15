@@ -1,6 +1,7 @@
 - initials: PI
   name: Principal Investigator
   role: Associate Professor, USC Viterbi
+  image: /assets/images/people/pi-headshot.png
   url: mailto:impactlab@usc.edu
   link_label: impactlab@usc.edu
   group: current
