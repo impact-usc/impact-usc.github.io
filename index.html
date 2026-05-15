@@ -16,18 +16,15 @@ description: USC IMPACT LAB is a research group at USC Viterbi advancing human-c
 
   <div class="hero-visual" aria-label="Rotating IMPACT Lab research visuals">
     <div class="hero-carousel-dots" aria-label="Hero image selector">
-      <button class="is-active" type="button" aria-label="Show hero image 1" aria-current="true"></button>
-      <button type="button" aria-label="Show hero image 2"></button>
-      <button type="button" aria-label="Show hero image 3"></button>
-      <button type="button" aria-label="Show hero image 4"></button>
-      <button type="button" aria-label="Show hero image 5"></button>
+      {% assign hero_images = site.static_files | where_exp: "file", "file.path contains '/assets/images/hero-images/'" | sort: "path" %}
+      {% for image in hero_images %}
+        <button type="button" aria-label="Show hero image {{ forloop.index }}"></button>
+      {% endfor %}
     </div>
     <div class="hero-carousel" data-hero-carousel>
-      <img class="is-active" src="{{ '/assets/hero-research-1.jpeg' | relative_url }}" alt="Abstract network of data, AI, and impact research" loading="eager">
-      <img src="{{ '/assets/hero-research-2.jpeg' | relative_url }}" alt="Human-centered AI workflow visualization" loading="lazy">
-      <img src="{{ '/assets/hero-research-3.jpeg' | relative_url }}" alt="Collaborative engineering research visualization" loading="lazy">
-      <img src="{{ '/assets/hero-research-4.jpeg' | relative_url }}" alt="Evaluation and field study visualization" loading="lazy">
-      <img src="{{ '/assets/hero-research-5.jpeg' | relative_url }}" alt="Translational impact research visualization" loading="lazy">
+      {% for image in hero_images %}
+        <img src="{{ image.path | relative_url }}" alt="IMPACT Lab hero image {{ forloop.index }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+      {% endfor %}
     </div>
   </div>
 </section>

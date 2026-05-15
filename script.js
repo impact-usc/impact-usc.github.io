@@ -17,7 +17,7 @@ links.forEach((link) => {
 const carousel = document.querySelector("[data-hero-carousel]");
 const slides = carousel ? Array.from(carousel.querySelectorAll("img")) : [];
 const dots = Array.from(document.querySelectorAll(".hero-carousel-dots button"));
-let activeSlide = 0;
+let activeSlide = -1;
 let carouselTimer;
 
 const setActiveSlide = (nextSlide) => {
@@ -34,15 +34,27 @@ const setActiveSlide = (nextSlide) => {
   dots[activeSlide]?.setAttribute("aria-current", "true");
 };
 
+const randomSlide = () => {
+  if (slides.length <= 1) {
+    return 0;
+  }
+
+  let nextSlide = activeSlide;
+  while (nextSlide === activeSlide) {
+    nextSlide = Math.floor(Math.random() * slides.length);
+  }
+  return nextSlide;
+};
+
 const startCarousel = () => {
   carouselTimer = window.setInterval(() => {
-    setActiveSlide((activeSlide + 1) % slides.length);
+    setActiveSlide(randomSlide());
   }, 4500);
 };
 
 if (slides.length > 1) {
   slides.forEach((slide, index) => {
-    slide.setAttribute("aria-hidden", index === 0 ? "false" : "true");
+    slide.setAttribute("aria-hidden", "true");
   });
 
   dots.forEach((dot, index) => {
@@ -56,7 +68,11 @@ if (slides.length > 1) {
     });
   });
 
+  setActiveSlide(randomSlide());
+
   if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     startCarousel();
   }
+} else if (slides.length === 1) {
+  setActiveSlide(0);
 }
