@@ -13,3 +13,50 @@ links.forEach((link) => {
     toggle?.setAttribute("aria-expanded", "false");
   });
 });
+
+const carousel = document.querySelector("[data-hero-carousel]");
+const slides = carousel ? Array.from(carousel.querySelectorAll("img")) : [];
+const dots = Array.from(document.querySelectorAll(".hero-carousel-dots button"));
+let activeSlide = 0;
+let carouselTimer;
+
+const setActiveSlide = (nextSlide) => {
+  slides[activeSlide]?.classList.remove("is-active");
+  slides[activeSlide]?.setAttribute("aria-hidden", "true");
+  dots[activeSlide]?.classList.remove("is-active");
+  dots[activeSlide]?.removeAttribute("aria-current");
+
+  activeSlide = nextSlide;
+
+  slides[activeSlide]?.classList.add("is-active");
+  slides[activeSlide]?.setAttribute("aria-hidden", "false");
+  dots[activeSlide]?.classList.add("is-active");
+  dots[activeSlide]?.setAttribute("aria-current", "true");
+};
+
+const startCarousel = () => {
+  carouselTimer = window.setInterval(() => {
+    setActiveSlide((activeSlide + 1) % slides.length);
+  }, 4500);
+};
+
+if (slides.length > 1) {
+  slides.forEach((slide, index) => {
+    slide.setAttribute("aria-hidden", index === 0 ? "false" : "true");
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      window.clearInterval(carouselTimer);
+      setActiveSlide(index);
+
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        startCarousel();
+      }
+    });
+  });
+
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    startCarousel();
+  }
+}

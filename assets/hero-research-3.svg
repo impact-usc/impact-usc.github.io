@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Collaborative engineering research</title>
+  <desc id="desc">Abstract collaboration table with people, prototypes, and research artifacts.</desc>
+  <rect width="900" height="680" fill="#fffdf8"/>
+  <rect x="52" y="64" width="796" height="552" fill="#f6f2e8" stroke="#ffcc00" stroke-width="6"/>
+  <ellipse cx="450" cy="352" rx="270" ry="110" fill="#ffffff" stroke="#ded8ce" stroke-width="4"/>
+  <g fill="#990000">
+    <circle cx="250" cy="214" r="44"/>
+    <circle cx="650" cy="214" r="44"/>
+    <circle cx="250" cy="496" r="44"/>
+    <circle cx="650" cy="496" r="44"/>
+  </g>
+  <g fill="#0047ba">
+    <rect x="222" y="266" width="56" height="104" rx="26"/>
+    <rect x="622" y="266" width="56" height="104" rx="26"/>
+  </g>
+  <g fill="#00843d">
+    <rect x="222" y="366" width="56" height="104" rx="26"/>
+    <rect x="622" y="366" width="56" height="104" rx="26"/>
+  </g>
+  <g fill="#ffcc00" stroke="#650000" stroke-width="4">
+    <rect x="350" y="276" width="200" height="130" rx="8"/>
+    <circle cx="450" cy="464" r="42"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle" fill="#650000">
+    <text x="450" y="344" font-size="30">PROTOTYPE</text>
+    <text x="450" y="474" font-size="24">STUDY</text>
+  </g>
+</svg>

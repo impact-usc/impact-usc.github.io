@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Translational impact research</title>
+  <desc id="desc">Abstract pathway from research question to deployment and impact.</desc>
+  <rect width="900" height="680" fill="#fffdf8"/>
+  <rect x="42" y="48" width="816" height="584" fill="#f6f2e8" stroke="#ffcc00" stroke-width="6"/>
+  <path d="M146 346 C250 200 372 456 482 306 S660 238 754 374" fill="none" stroke="#990000" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#ffffff" stroke="#ded8ce" stroke-width="3">
+    <rect x="98" y="138" width="176" height="110" rx="8"/>
+    <rect x="362" y="412" width="176" height="110" rx="8"/>
+    <rect x="626" y="162" width="176" height="110" rx="8"/>
+    <rect x="300" y="182" width="300" height="116" rx="8"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="186" y="205" fill="#0047ba" font-size="26">QUESTION</text>
+    <text x="450" y="252" fill="#00843d" font-size="28">METHOD</text>
+    <text x="450" y="480" fill="#c8510c" font-size="28">DEPLOY</text>
+    <text x="714" y="230" fill="#990000" font-size="28">IMPACT</text>
+  </g>
+  <g fill="#ffcc00" stroke="#650000" stroke-width="4">
+    <circle cx="146" cy="346" r="28"/>
+    <circle cx="482" cy="306" r="28"/>
+    <circle cx="754" cy="374" r="28"/>
+  </g>
+</svg>

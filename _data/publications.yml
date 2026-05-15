@@ -1,0 +1,26 @@
+- year: 2026
+  title: Title of a representative paper from USC IMPACT LAB
+  citation: Author One, Author Two, and Author Three. <em>Conference or Journal Name.</em>
+  links:
+    - label: Paper
+      url: "#"
+    - label: Code
+      url: "#"
+    - label: Project
+      url: "#"
+- year: 2025
+  title: Measuring impact in deployed intelligent engineering systems
+  citation: Author One, Author Two, and Author Three. <em>Conference or Journal Name.</em>
+  links:
+    - label: Paper
+      url: "#"
+    - label: BibTeX
+      url: "#"
+- year: 2024
+  title: Human-centered data tools for interdisciplinary research teams
+  citation: Author One, Author Two, and Author Three. <em>Conference or Journal Name.</em>
+  links:
+    - label: Paper
+      url: "#"
+    - label: Talk
+      url: "#"

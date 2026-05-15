@@ -1,0 +1,14 @@
+title: USC IMPACT LAB
+description: Human-centered AI and engineering systems for measurable real-world impact.
+url: "https://impact-usc.github.io"
+baseurl: ""
+email: impactlab@usc.edu
+github_username: impact-usc
+
+theme: null
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - assets/Presentation1.pptx
