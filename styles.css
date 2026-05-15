@@ -561,8 +561,8 @@ a:hover {
 }
 
 .avatar {
-  width: 96px;
-  height: 96px;
+  width: 112px;
+  height: 112px;
   display: grid;
   place-items: center;
   background: var(--usc-cardinal);
@@ -572,8 +572,8 @@ a:hover {
 }
 
 .person-photo {
-  width: 128px;
-  height: 128px;
+  width: 152px;
+  height: 152px;
   object-fit: cover;
   object-position: center 28%;
   border-radius: 50%;
