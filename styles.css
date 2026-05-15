@@ -575,6 +575,10 @@ a:hover {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.people-alumni {
+  padding-top: 0;
+}
+
 .pub-links,
 .footer-links {
   display: flex;

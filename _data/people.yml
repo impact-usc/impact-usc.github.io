@@ -3,18 +3,22 @@
   role: Associate Professor, USC Viterbi
   url: mailto:impactlab@usc.edu
   link_label: impactlab@usc.edu
+  group: current
 - initials: GS
   name: Graduate Student
   role: Ph.D. student working on human-centered AI and evaluation.
   url: "#"
   link_label: Profile
+  group: current
 - initials: RA
   name: Research Assistant
   role: Undergraduate researcher supporting prototypes and studies.
   url: "#"
   link_label: Profile
+  group: current
 - initials: AL
   name: Alumni Name
   role: Former lab member, now at organization or graduate program.
   url: "#"
   link_label: Profile
+  group: alumni
