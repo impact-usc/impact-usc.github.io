@@ -587,6 +587,48 @@ a:hover {
   border: 3px solid var(--usc-gold);
 }
 
+.person-photo-link {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.person-photo-link:focus-visible {
+  outline: 3px solid var(--usc-cardinal);
+  outline-offset: 4px;
+}
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 4rem;
+  align-items: start;
+}
+
+.profile-sidebar {
+  padding: 1.3rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.profile-sidebar h2 {
+  margin: 1rem 0 0.35rem;
+  font-size: 1.4rem;
+}
+
+.profile-sidebar p {
+  color: var(--muted);
+}
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 28%;
+  border-radius: 50%;
+  border: 4px solid var(--usc-gold);
+}
+
 .people-page-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }

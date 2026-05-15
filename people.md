@@ -27,7 +27,13 @@ permalink: /people/
       {% if person.group == 'current' %}
         <article class="person-card">
           {% if person.image %}
-            <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            {% if person.profile_url %}
+              <a class="person-photo-link" href="{{ person.profile_url | relative_url }}" aria-label="Open {{ person.name }} profile">
+                <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+              </a>
+            {% else %}
+              <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            {% endif %}
           {% else %}
             <div class="avatar">{{ person.initials }}</div>
           {% endif %}
@@ -54,7 +60,13 @@ permalink: /people/
       {% if person.group == 'alumni' %}
         <article class="person-card">
           {% if person.image %}
-            <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            {% if person.profile_url %}
+              <a class="person-photo-link" href="{{ person.profile_url | relative_url }}" aria-label="Open {{ person.name }} profile">
+                <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+              </a>
+            {% else %}
+              <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            {% endif %}
           {% else %}
             <div class="avatar">{{ person.initials }}</div>
           {% endif %}
