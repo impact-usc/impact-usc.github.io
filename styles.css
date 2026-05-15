@@ -442,6 +442,13 @@ a:hover {
   color: var(--muted);
 }
 
+.person-card .person-meta {
+  margin: -0.25rem 0 0.65rem;
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 .subpage-hero {
   background:
     linear-gradient(110deg, rgba(153, 0, 0, 0.96), rgba(100, 0, 0, 0.9)),

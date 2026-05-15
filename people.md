@@ -33,6 +33,9 @@ permalink: /people/
           {% endif %}
           <h3>{{ person.name }}</h3>
           <p>{{ person.role }}</p>
+          {% if person.office %}
+            <p class="person-meta">Office: {{ person.office }}</p>
+          {% endif %}
           <a href="{{ person.url }}">{{ person.link_label }}</a>
         </article>
       {% endif %}
@@ -57,6 +60,9 @@ permalink: /people/
           {% endif %}
           <h3>{{ person.name }}</h3>
           <p>{{ person.role }}</p>
+          {% if person.office %}
+            <p class="person-meta">Office: {{ person.office }}</p>
+          {% endif %}
           <a href="{{ person.url }}">{{ person.link_label }}</a>
         </article>
       {% endif %}
