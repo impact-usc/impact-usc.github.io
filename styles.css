@@ -571,6 +571,10 @@ a:hover {
   font-weight: 800;
 }
 
+.people-page-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .pub-links,
 .footer-links {
   display: flex;

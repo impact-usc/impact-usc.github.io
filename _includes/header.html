@@ -17,7 +17,7 @@
 
     <div class="nav-links" id="site-menu">
       <a href="{{ '/#research' | relative_url }}">Research</a>
-      <a href="{{ '/#people' | relative_url }}">People</a>
+      <a href="{{ '/people/' | relative_url }}"{% if page.url == '/people/' %} aria-current="page"{% endif %}>People</a>
       <a href="{{ '/#publications' | relative_url }}">Publications</a>
       <a href="{{ '/#news' | relative_url }}">News</a>
       <a href="{{ '/#join' | relative_url }}">Join Us</a>
