@@ -584,7 +584,6 @@ a:hover {
   object-fit: cover;
   object-position: center 28%;
   border-radius: 50%;
-  border: 3px solid var(--usc-gold);
 }
 
 .person-photo-link {
