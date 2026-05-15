@@ -5,21 +5,25 @@ description: Profile page for Yan Jin, Principal Investigator of USC IMPACT LAB.
 permalink: /people/yan-jin/
 ---
 
+{% assign pi = site.data.people | where: "profile_url", "/people/yan-jin/" | first %}
+
 <section class="subpage-hero section-band">
   <div class="subpage-hero-inner">
     <p class="eyebrow">Principal Investigator</p>
-    <h1>Yan Jin, Ph.D.</h1>
-    <p>Professor of AME and Principal Investigator of USC IMPACT LAB.</p>
+    <h1>{{ pi.name }}</h1>
+    <p>{{ pi.role }}</p>
   </div>
 </section>
 
 <section class="section profile-layout" aria-labelledby="profile-title">
   <aside class="profile-sidebar">
-    <img class="profile-photo" src="{{ '/assets/images/people/pi-headshot.png' | relative_url }}" alt="Yan Jin, Ph.D.">
-    <h2 id="profile-title">Yan Jin, Ph.D.</h2>
-    <p>Principal Investigator · Professor of AME</p>
-    <p class="person-meta">Office: OHE-412C</p>
-    <a href="mailto:yjin@usc.edu">yjin@usc.edu</a>
+    <img class="profile-photo" src="{{ pi.image | relative_url }}" alt="{{ pi.name }}">
+    <h2 id="profile-title">{{ pi.name }}</h2>
+    <p>{{ pi.role }}</p>
+    {% if pi.office %}
+      <p class="person-meta">Office: {{ pi.office }}</p>
+    {% endif %}
+    <a href="{{ pi.url }}">{{ pi.link_label }}</a>
   </aside>
 
   <div class="content-main">
