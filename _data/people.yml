@@ -7,21 +7,21 @@
   url: mailto:yjin@usc.edu
   link_label: yjin@usc.edu
   group: current
-- initials: GS
+- initials: AA
   name: Ardalan Aryashad
   role: Ph.D. student & Graduate Research Assistant
   url: mailto:aryashad@usc.edu
   link_label: aryashad@usc.edu
   group: current
-- initials: RA
+- initials: JN
+  name: Jian Ni
+  role: Ph.D. student & Graduate Research Assistant
+  url: mailto:jianni@usc.edu
+  link_label: jianni@usc.edu
+  group: current
+- initials: SS
   name: Sara Sourani
   role: Ph.D. student & Graduate Research Assistant
   url: mailto:souraniy@usc.edu
-  link_label: souraniy@usc.edu
+  link_label: ouraniy@usc.edu
   group: current
-- initials: AL
-  name: Alumni Name
-  role: Former lab member, now at organization or graduate program.
-  url: "#"
-  link_label: Profile
-  group: alumni
