@@ -548,7 +548,8 @@ a:hover {
   gap: 1rem;
 }
 
-.publication-jump-bar {
+.publication-jump-bar,
+.people-jump-bar {
   position: sticky;
   top: 76px;
   z-index: 20;
@@ -563,7 +564,8 @@ a:hover {
   backdrop-filter: blur(12px);
 }
 
-.publication-jump-bar a {
+.publication-jump-bar a,
+.people-jump-bar a {
   display: inline-flex;
   align-items: center;
   min-height: 38px;
@@ -577,12 +579,14 @@ a:hover {
   text-decoration: none;
 }
 
-.publication-jump-bar a:hover {
+.publication-jump-bar a:hover,
+.people-jump-bar a:hover {
   border-color: var(--usc-cardinal);
   background: var(--soft);
 }
 
-.publication-type-section {
+.publication-type-section,
+.people-type-section {
   margin-top: 2rem;
 }
 
@@ -687,7 +691,7 @@ a:hover {
 }
 
 .people-alumni {
-  padding-top: 0;
+  padding-top: 2rem;
 }
 
 .pub-links,
@@ -784,11 +788,21 @@ a:hover {
 
   .intro,
   .content-layout,
+  .profile-layout,
   .project-list article,
   .publication-list article,
   .join-panel,
   .site-footer {
     grid-template-columns: 1fr;
+  }
+
+  .profile-layout {
+    gap: 2rem;
+  }
+
+  .profile-sidebar,
+  .content-main {
+    min-width: 0;
   }
 
   .intro,
