@@ -555,10 +555,19 @@ a:hover {
   column-gap: 1.5rem;
 }
 
+.publication-list article {
+  padding: 0.9rem 1.1rem 0.65rem;
+}
+
 .project-list h3,
 .publication-list h3 {
   grid-column: 2;
+  margin: 0 0 0.25rem;
+}
+
+.publication-list .pub-citation {
   margin-top: 0;
+  margin-bottom: 0.15rem;
 }
 
 .project-list p:not(.project-tag),
@@ -640,6 +649,11 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.9rem;
+}
+
+.pub-link-inline {
+  display: inline-block;
+  margin-left: 0.55rem;
 }
 
 .join {
