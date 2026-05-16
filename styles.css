@@ -548,6 +548,16 @@ a:hover {
   gap: 1rem;
 }
 
+.publication-type-section {
+  margin-top: 2rem;
+}
+
+.publication-type-section > h3 {
+  margin: 0 0 0.8rem;
+  color: var(--usc-cardinal);
+  font-size: 1.35rem;
+}
+
 .project-list article,
 .publication-list article {
   display: grid;

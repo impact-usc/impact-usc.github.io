@@ -1,6 +1,7 @@
 # Generated from assets/publications.bib, assets/pub-addition1.bib, and enriched with DOI links from Crossref.
 - key: "SUZUKI_2026"
   year: 2026
+  type: "journal"
   title: "A simulation-based design methodology for service business processes in uncertainty (Case study of IT support business processes to examine the validity of the methodology)"
   citation: "Yoichiro Suzuki, Kazuo Hiekata, Takuya Nakashima, Yan Jin. <em>Transactions of the JSME (in Japanese)</em>. 2026."
   links:
@@ -10,6 +11,7 @@
       url: "http://dx.doi.org/10.1299/transjsme.25-00166"
 - key: "Hu_2026"
   year: 2026
+  type: "journal"
   title: "An Enhanced Deep Reinforcement Learning Approach to Motion Planning With Knowledge Transfer and Online Demonstrations"
   citation: "Chuanhui Hu, Yan Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2026. 26, (9)."
   links:
@@ -19,6 +21,7 @@
       url: "http://dx.doi.org/10.1115/1.4071614"
 - key: "Qiu_2025"
   year: 2025
+  type: "journal"
   title: "A Method for Synthesizing Ontology-Based Textual Design Datasets: Evaluating the Potential of Large Language Model in Domain-Specific Dataset Generation"
   citation: "Yunjian Qiu, Yan Jin. <em>Journal of Mechanical Design</em>. 2025. 147, (4)."
   links:
@@ -28,6 +31,7 @@
       url: "http://dx.doi.org/10.1115/1.4067478"
 - key: "Wang_2025_2"
   year: 2025
+  type: "journal"
   title: "Designing Robotic Manipulation: Exploring Knowledge Transfer in CausalWorld"
   citation: "Xinrui Wang, Yan Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2025. 25, (8)."
   links:
@@ -37,6 +41,7 @@
       url: "http://dx.doi.org/10.1115/1.4068471"
 - key: "Wang_2025"
   year: 2025
+  type: "conference"
   title: "Knowledge Capture, Adaptation and Composition (KCAC): A Framework for Cross-Task Curriculum Learning in Robotic Manipulation"
   citation: "Xinrui Wang, Yan Jin. <em>Volume 2A: 45th Computers and Information in Engineering Conference (CIE)</em>. 2025."
   links:
@@ -46,6 +51,7 @@
       url: "http://dx.doi.org/10.1115/detc2025-169525"
 - key: "Aryashad_2025"
   year: 2025
+  type: "conference"
   title: "VLAG: Graph-Based Planning for Vision-Language-Action Models in Long Horizon Manipulation Tasks"
   citation: "Ardalan Aryashad, Yan Jin. <em>Volume 3A: 51st Design Automation Conference (DAC)</em>. 2025."
   links:
@@ -55,6 +61,7 @@
       url: "http://dx.doi.org/10.1115/detc2025-169527"
 - key: "Wang_2024"
   year: 2024
+  type: "journal"
   title: "Enhancing Efficiency in Collision Avoidance: A Study on Transfer Reinforcement Learning in Autonomous Ships’ Navigation"
   citation: "Xinrui Wang, Yan Jin. <em>ASME Open Journal of Engineering</em>. 2024. 3."
   links:
@@ -64,6 +71,7 @@
       url: "http://dx.doi.org/10.1115/1.4065831"
 - key: "Hu_2024"
   year: 2024
+  type: "conference"
   title: "Enhancing Long-Term Decision Making in Trajectory Planning: Deep Reinforcement Learning With Knowledge Transfer and Online Demonstrations"
   citation: "Chuanhui Hu, Yan Jin. <em>Volume 3B: 50th Design Automation Conference (DAC)</em>. 2024."
   links:
@@ -73,6 +81,7 @@
       url: "http://dx.doi.org/10.1115/detc2024-143583"
 - key: "Huang_2024"
   year: 2024
+  type: "conference"
   title: "Impact of Social Learning on Teamwork Efficiency in Learning-Based Self-Organized Systems"
   citation: "Bingling Huang, Hao Ji, Yan Jin. <em>Volume 3B: 50th Design Automation Conference (DAC)</em>. 2024."
   links:
@@ -82,6 +91,7 @@
       url: "http://dx.doi.org/10.1115/detc2024-143326"
 - key: "Ji_2024"
   year: 2024
+  type: "journal"
   title: "Impact of Task Constraint on Agent Team Size of Self-Organizing Systems Measured by Effective Entropy"
   citation: "Hao Ji, Yan Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2024. 24, (8)."
   links:
@@ -91,6 +101,7 @@
       url: "http://dx.doi.org/10.1115/1.4065343"
 - key: "Suzuki_2024"
   year: 2024
+  type: "book_chapter"
   title: "Simulation-Based Service Business Process Design Method for Different Types of Demand Fluctuations"
   citation: "Yoichiro Suzuki, Kazuo Hiekata, Yan Jin. <em>Engineering For Social Change</em>. 2024."
   links:
@@ -100,6 +111,7 @@
       url: "http://dx.doi.org/10.3233/atde240902"
 - key: "Qiu_2024"
   year: 2024
+  type: "journal"
   title: "ChatGPT and finetuned BERT: A comparative study for developing intelligent design support systems"
   citation: "Yunjian Qiu, Yan Jin. <em>Intelligent Systems with Applications</em>. 2024. 21, 200308."
   links:
@@ -109,6 +121,7 @@
       url: "http://dx.doi.org/10.1016/j.iswa.2023.200308"
 - key: "Yan_Jin_214828415"
   year: 2023
+  type: "conference"
   title: "Document Understanding-Based Design Support: Language Model Based Design Knowledge Extraction"
   citation: "Yan Jin, Yunjian Qiu, Yan Jin. <em>Volume 3A: 49th Design Automation Conference (DAC)</em>. 2023."
   links:
@@ -116,6 +129,7 @@
       url: "https://doi.org/10.1115/detc2023-116746"
 - key: "Yan_Jin_214828446"
   year: 2023
+  type: "conference"
   title: "Knowledge Transfer in Self-Organizing Systems and Impact of Social Ability"
   citation: "Yan Jin, Bingling Huang, Yan Jin. <em>Volume 3B: 49th Design Automation Conference (DAC)</em>. 2023."
   links:
@@ -123,6 +137,7 @@
       url: "https://doi.org/10.1115/detc2023-116392"
 - key: "Hu_2023"
   year: 2023
+  type: "conference"
   title: "Large-Scale Path Planning in Complex Environments Based on Genetic Algorithm"
   citation: "Chuanhui Hu, Yan Jin. <em>Volume 3B: 49th Design Automation Conference (DAC)</em>. 2023."
   links:
@@ -132,6 +147,7 @@
       url: "http://dx.doi.org/10.1115/detc2023-116340"
 - key: "Wang_2023"
   year: 2023
+  type: "conference"
   title: "Transfer Reinforcement Learning: Feature Transferability in Ship Collision Avoidance"
   citation: "Xinrui Wang, Yan Jin. <em>Volume 3B: 49th Design Automation Conference (DAC)</em>. 2023."
   links:
@@ -141,6 +157,7 @@
       url: "http://dx.doi.org/10.1115/detc2023-116709"
 - key: "Jin2023"
   year: 2023
+  type: "journal"
   title: "ChatGPT and Finetuned BERT: A Comparative Study for Developing Intelligent Design Support Systems"
   citation: "Y. Qiu, Y. Jin. <em>SSRN</em>. 2023."
   links:
@@ -148,6 +165,7 @@
       url: "https://doi.org/10.2139/ssrn.4516782"
 - key: "Qiu_2023"
   year: 2023
+  type: "journal"
   title: "Document Understanding-Based Design Support: Application of Language Model for Design Knowledge Extraction"
   citation: "Yunjian Qiu, Yan Jin. <em>Journal of Mechanical Design</em>. 2023. 145(12)."
   links:
@@ -157,6 +175,7 @@
       url: "https://doi.org/10.1115%2F1.4063161"
 - key: "Huang_2023"
   year: 2023
+  type: "journal"
   title: "Social learning in self-organizing systems for complex assembly tasks"
   citation: "Bingling Huang, Yan Jin. <em>Advanced Engineering Informatics</em>. 2023. 57, 102109."
   links:
@@ -166,6 +185,7 @@
       url: "http://dx.doi.org/10.1016/j.aei.2023.102109"
 - key: "Zhang_2022"
   year: 2022
+  type: "journal"
   title: "Data-enabled sketch search and retrieval for visual design stimuli generation"
   citation: "Zijian Zhang, Yan Jin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing</em>. 2022. 36."
   links:
@@ -175,6 +195,7 @@
       url: "http://dx.doi.org/10.1017/S0890060422000063"
 - key: "Jin2022"
   year: 2022
+  type: "journal"
   title: "Engineering Document Summarization: A Bidirectional Language Model-Based Approach"
   citation: "Y. Qiu, Y. Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2022. 22(6)."
   links:
@@ -182,6 +203,7 @@
       url: "https://doi.org/10.1115/1.4054203"
 - key: "Jin2022"
   year: 2022
+  type: "journal"
   title: "Exploring Visual Cues for Design Analogy: A Deep Learning Approach"
   citation: "Z. Zhang, Y. Jin. <em>Journal of Mechanical Design</em>. 2022. 144(12)."
   links:
@@ -189,6 +211,7 @@
       url: "https://doi.org/10.1115/1.4055623"
 - key: "Jin2022"
   year: 2022
+  type: "journal"
   title: "Knowledge Acquisition of Self-Organizing Systems With Deep Multiagent Reinforcement Learning"
   citation: "H. Ji, Y. Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2022. 22(2)."
   links:
@@ -196,6 +219,7 @@
       url: "https://doi.org/10.1115/1.4052800"
 - key: "Jin2022"
   year: 2022
+  type: "conference"
   title: "Long-Range Risk-Aware Path Planning for Autonomous Ships in Complex and Dynamic Environments"
   citation: "C. Hu, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2022. 3-A."
   links:
@@ -203,6 +227,7 @@
       url: "https://doi.org/10.1115/detc2022-89760"
 - key: "Hu_2022"
   year: 2022
+  type: "journal"
   title: "Path Planning for Autonomous Systems Design: A Focus Genetic Algorithm for Complex Environments"
   citation: "Chuanhui Hu, Yan Jin. <em>Journal of Autonomous Vehicles and Systems</em>. 2022. 2(4)."
   links:
@@ -212,6 +237,7 @@
       url: "https://doi.org/10.1115%2F1.4063013"
 - key: "Jin2022"
   year: 2022
+  type: "journal"
   title: "Reward shaping in multiagent reinforcement learning for self-organizing systems in assembly tasks"
   citation: "B. Huang, Y. Jin. <em>Advanced Engineering Informatics</em>. 2022. 54."
   links:
@@ -219,6 +245,7 @@
       url: "https://doi.org/10.1016/j.aei.2022.101800"
 - key: "Jin2022"
   year: 2022
+  type: "other"
   title: "Visual Reasoning for Design by Analogy: Fuse Visial and Semantic Knowledge"
   citation: "Z. Zhang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2022. 6."
   links:
@@ -226,6 +253,7 @@
       url: "https://doi.org/10.1115/detc2022-89723"
 - key: "Jin2022"
   year: 2022
+  type: "conference"
   title: "Work Process Transfer Reinforcement Learning: Feature Extraction and Finetuning in Ship Collision Avoidance"
   citation: "X. Wang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2022. 2."
   links:
@@ -233,6 +261,7 @@
       url: "https://doi.org/10.1115/detc2022-91145"
 - key: "Jin2021"
   year: 2021
+  type: "conference"
   title: "Engineering document summarization using sentence representations generated by bidirectional language model"
   citation: "Y. Qiu, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2021. 2."
   links:
@@ -240,6 +269,7 @@
       url: "https://doi.org/10.1115/detc2021-70866"
 - key: "Jin2021"
   year: 2021
+  type: "conference"
   title: "Toward computer aided visual analogy support (CAVAS): Augment designers through deep learning"
   citation: "Z. Zhang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2021. 6."
   links:
@@ -247,6 +277,7 @@
       url: "https://doi.org/10.1115/detc2021-70961"
 - key: "Jin2020"
   year: 2020
+  type: "conference"
   title: "An adapted ethnographic approach to social cognition and cognitive apprenticeship in design learning experience"
   citation: "H. Milojevic, Y. Jin, A. Patel, P. Chastain-Howley, N.K. Brown. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2020. 3."
   links:
@@ -254,6 +285,7 @@
       url: "https://doi.org/10.1115/detc2020-22405"
 - key: "Jin2020"
   year: 2020
+  type: "conference"
   title: "An unsupervised deep learning model to discover visual similarity between sketches for visual analogy support"
   citation: "Z. Zhang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2020. 8."
   links:
@@ -261,6 +293,7 @@
       url: "https://doi.org/10.1115/detc2020-22394"
 - key: "Jin2020"
   year: 2020
+  type: "conference"
   title: "Development of probability fields for collision avoidance"
   citation: "E.A. Williams, Y. Jin, P.C. Schulze. <em>AIAA AVIATION 2020 FORUM</em>. 2020. 1 PartF."
   links:
@@ -268,6 +301,7 @@
       url: "https://doi.org/10.2514/6.2020-2863"
 - key: "Liu_2020"
   year: 2020
+  type: "journal"
   title: "Reinforcement learning-based collision avoidance: impact of reward function and knowledge transfer"
   citation: "Xiongqing Liu, Yan Jin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing</em>. 2020. 34(2), 207--222."
   links:
@@ -277,6 +311,7 @@
       url: "https://doi.org/10.1017%2Fs0890060420000141"
 - key: "Jin2019"
   year: 2019
+  type: "conference"
   title: "Designing self-organizing systems with deep multi-agent reinforcement learning"
   citation: "H. Ji, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2019. 7."
   links:
@@ -284,6 +319,7 @@
       url: "https://doi.org/10.1115/detc2019-98268"
 - key: "Jin2019"
   year: 2019
+  type: "conference"
   title: "Enhance the Simulation of Architecture and Engineering Design Process: A Data-Driven Based Approach"
   citation: "Y. Hou, L. Soibelman, Y. Jin. <em>Computing in Civil Engineering 2019: Visualization, Information Modeling, and Simulation - Selected Papers from the ASCE International Conference on Computing in Civil Engineering 2019</em>. 2019. 626-634."
   links:
@@ -291,6 +327,7 @@
       url: "https://doi.org/10.1061/9780784482421.079"
 - key: "Jin2018"
   year: 2018
+  type: "conference"
   title: "Design of transfer reinforcement learning under low task similarity"
   citation: "X. Liu, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2018. 2A-2018."
   links:
@@ -298,6 +335,7 @@
       url: "https://doi.org/10.1115/detc2018-86013"
 - key: "Jin2018"
   year: 2018
+  type: "conference"
   title: "Low earth orbit debris avoidance using situation-risk assessment modeling"
   citation: "E.A. Williams, Y. Jin. <em>2018 AIAA SPACE and Astronautics Forum and Exposition</em>. 2018."
   links:
@@ -305,6 +343,7 @@
       url: "https://doi.org/10.2514/6.2018-5232"
 - key: "Jin2018"
   year: 2018
+  type: "conference"
   title: "Modeling trust in self-organizing systems with heterogeneity"
   citation: "H. Ji, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2018. 7."
   links:
@@ -312,6 +351,7 @@
       url: "https://doi.org/10.1115/detc2018-86006"
 - key: "Jin2018"
   year: 2018
+  type: "conference"
   title: "Use of situation and risk modeling in guidance solutions"
   citation: "E.A. Williams, Y. Jin. <em>2018 IEEE/ION Position, Location and Navigation Symposium, PLANS 2018 - Proceedings</em>. 2018. 516-521."
   links:
@@ -319,6 +359,7 @@
       url: "https://doi.org/10.1109/plans.2018.8373421"
 - key: "Jin2017"
   year: 2017
+  type: "journal"
   title: "A quantitative approach to design alternative evaluation based on data-driven performance prediction"
   citation: "Z.-J. Zhang, L. Gong, Y. Jin, J. Xie, J. Hao. <em>Advanced Engineering Informatics</em>. 2017. 32, 52-65."
   links:
@@ -326,6 +367,7 @@
       url: "https://doi.org/10.1016/j.aei.2016.12.009"
 - key: "Jin2017"
   year: 2017
+  type: "book_chapter"
   title: "Scalability in self-organizing systems: An experimental case study on foraging systems"
   citation: "J. Humann, Y. Jin, A.M. Madni. <em>Disciplinary Convergence in Systems Engineering Research</em>. 2017. 543-557."
   links:
@@ -333,6 +375,7 @@
       url: "https://doi.org/10.1007/978-3-319-62217-0_38"
 - key: "Jin2016"
   year: 2016
+  type: "journal"
   title: "A qualitative study of collaborative stimulation in group design thinking"
   citation: "J. Sauder, Y. Jin. <em>Design Science</em>. 2016. 2."
   links:
@@ -340,6 +383,7 @@
       url: "https://doi.org/10.1017/dsj.2016.1"
 - key: "Jin2016"
   year: 2016
+  type: "conference"
   title: "Adaptability tradeoffs in the design of self-organizing systems"
   citation: "J. Humann, N. Khani, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2016. 7."
   links:
@@ -347,6 +391,7 @@
       url: "https://doi.org/10.1115/detc2016-60053"
 - key: "Jin2016"
   year: 2016
+  type: "journal"
   title: "Data driven uncertainty evaluation for complex engineered system design"
   citation: "B. Liu, S. Huang, W. Fan, T. Xiao, H. James, Y. Lai, Y. Jin. <em>Chinese Journal of Mechanical Engineering (English Edition)</em>. 2016. 29(5), 889-900."
   links:
@@ -354,6 +399,7 @@
       url: "https://doi.org/10.3901/cjme.2016.0422.058"
 - key: "Jin2016"
   year: 2016
+  type: "journal"
   title: "Effect of Social Structuring in Self-Organizing Systems"
   citation: "N. Khani, J. Humann, Y. Jin. <em>Journal of Mechanical Design</em>. 2016. 138(4)."
   links:
@@ -361,11 +407,13 @@
       url: "https://doi.org/10.1115/1.4032265"
 - key: "Jin2016"
   year: 2016
+  type: "journal"
   title: "Exploring dual-processes of iteration in conceptual design"
   citation: "D. Moore, J. Sauder, Y. Jin. <em>International Journal of Engineering Education</em>. 2016. 32(3), 1385-1395."
   links: []
 - key: "Jin2016"
   year: 2016
+  type: "conference"
   title: "Influence of thinking style on design creativity"
   citation: "H. Milojevic, A. Girardello, Z. Zhang, Y. Jin. <em>4th International Conference on Design Creativity, ICDC 2016</em>. 2016."
   links:
@@ -373,6 +421,7 @@
       url: "https://doi.org/10.1007/978-3-319-14017-9"
 - key: "Jin2014"
   year: 2014
+  type: "conference"
   title: "A dual-process analysis of design idea generation"
   citation: "D. Moore, J. Sauder, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2014. 7."
   links:
@@ -380,6 +429,7 @@
       url: "https://doi.org/10.1115/detc2014-34657"
 - key: "Jin2014"
   year: 2014
+  type: "journal"
   title: "Cellular self-organizing systems: A field-based behavior regulation approach"
   citation: "Y. Jin, C. Chen. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2014. 28(2), 115-128."
   links:
@@ -387,6 +437,7 @@
       url: "https://doi.org/10.1017/s0890060414000031"
 - key: "Jin2014"
   year: 2014
+  type: "journal"
   title: "Collaborative stimulation of memory retrieval in design"
   citation: "J. Sauder, Y. Jin. <em>International Journal of Design Creativity and Innovation</em>. 2014. 2(2), 63-81."
   links:
@@ -394,6 +445,7 @@
       url: "https://doi.org/10.1080/21650349.2013.847533"
 - key: "Jin2014"
   year: 2014
+  type: "journal"
   title: "Evolutionary computational synthesis of self-organizing systems"
   citation: "J. Humann, N. Khani, Y. Jin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2014. 28(3), 259-275."
   links:
@@ -401,6 +453,7 @@
       url: "https://doi.org/10.1017/s0890060414000213"
 - key: "Jin2013"
   year: 2013
+  type: "conference"
   title: "Evolutionary design of cellular self-organizing systems"
   citation: "J. Humann, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2013. 3 A."
   links:
@@ -408,6 +461,7 @@
       url: "https://doi.org/10.1115/detc2013-12485"
 - key: "Jin2013"
   year: 2013
+  type: "journal"
   title: "Perspectives on design creativity and innovation research"
   citation: "C. McMahon, U. Lindemann, J.S. Gero, L. Leifer, M. Steinert, E. Edmonds, G. Goldschmidt, L. Candy, et al.. <em>International Journal of Design Creativity and Innovation</em>. 2013. 1(1), 1-42."
   links:
@@ -415,6 +469,7 @@
       url: "https://doi.org/10.1080/21650349.2013.754657"
 - key: "Jin2013"
   year: 2013
+  type: "journal"
   title: "Status and new features"
   citation: "Y. Jin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2013. 27(1), 1."
   links:
@@ -422,6 +477,7 @@
       url: "https://doi.org/10.1017/s0890060412000431"
 - key: "Jin2013"
   year: 2013
+  type: "conference"
   title: "The effect of collaborative stimulation on design novelty"
   citation: "J. Sauder, E. Lian, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2013. 5."
   links:
@@ -429,6 +485,7 @@
       url: "https://doi.org/10.1115/detc2013-12289"
 - key: "Jin2013"
   year: 2013
+  type: "conference"
   title: "Training the participatory renaissance man: Past creative experiences and collaborative design"
   citation: "J. Sauder, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2013. 1."
   links:
@@ -436,6 +493,7 @@
       url: "https://doi.org/10.1115/detc2013-12288"
 - key: "Jin2012"
   year: 2012
+  type: "journal"
   title: "Baton change, another beginning at 25"
   citation: "Y. Jin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2012. 26(1), 1-2."
   links:
@@ -443,6 +501,7 @@
       url: "https://doi.org/10.1017/s0890060411000291"
 - key: "Jin2012"
   year: 2012
+  type: "conference"
   title: "Collaborative stimulation of memory retrieval in creative design"
   citation: "J. Sauder, Y. Jin. <em>ICDC 2012 - 2nd International Conference on Design Creativity, Proceedings</em>. 2012. 1 DS73, 169-178."
   links:
@@ -450,6 +509,7 @@
       url: "https://doi.org/10.1080/21650349.2013.847533"
 - key: "Jin2012"
   year: 2012
+  type: "conference"
   title: "Design of cellular self-organizing systems"
   citation: "W. Chiang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2012. 3(PARTS A AND B), 511-521."
   links:
@@ -457,6 +517,7 @@
       url: "https://doi.org/10.1115/detc2012-71216"
 - key: "Jin2012"
   year: 2012
+  type: "journal"
   title: "Simulation based process design: Modeling and applications"
   citation: "Y. Suzuki, M. Yahyaei, Y. Jin, H. Koyama, G. Kang. <em>Advanced Engineering Informatics</em>. 2012. 26(4), 763-781."
   links:
@@ -464,6 +525,7 @@
       url: "https://doi.org/10.1016/j.aei.2012.06.002"
 - key: "Jin2011"
   year: 2011
+  type: "conference"
   title: "A behavior based approach to cellular self-organizing systems design"
   citation: "C. Chen, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2011. 9, 95-107."
   links:
@@ -471,6 +533,7 @@
       url: "https://doi.org/10.1115/detc2011-48833"
 - key: "Jin2011"
   year: 2011
+  type: "conference"
   title: "Toward a meta-model of behavioral interaction for designing complex adaptive systems"
   citation: "W. Chiang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2011. 2(PARTS A AND B), 1077-1088."
   links:
@@ -478,6 +541,7 @@
       url: "https://doi.org/10.1115/detc2011-48821"
 - key: "Jin2011"
   year: 2011
+  type: "journal"
   title: "Validation and adjustment of prior and data for bayesian reliability analysis in engineering design"
   citation: "Z. Huang, Y. Jin. <em>Journal of Mechanical Design</em>. 2011. 133(5)."
   links:
@@ -485,6 +549,7 @@
       url: "https://doi.org/10.1115/1.4003841"
 - key: "Jin2010"
   year: 2010
+  type: "conference"
   title: "A prior and data validation and adjustment scheme for Bayesian reliability analysis in engineering design"
   citation: "Z. Huang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2010. 5, 483-496."
   links:
@@ -492,6 +557,7 @@
       url: "https://doi.org/10.1115/detc2010-28847"
 - key: "Jin2010"
   year: 2010
+  type: "journal"
   title: "A study of argumentation-based negotiation in collaborative design"
   citation: "Y. Jin, M. Geslin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2010. 24(1), 35-48."
   links:
@@ -499,6 +565,7 @@
       url: "https://doi.org/10.1017/s0890060409990151"
 - key: "Jin2010"
   year: 2010
+  type: "book_chapter"
   title: "An application of simulation based process design"
   citation: "Y. Suzuki, Y. Jin, H. Koyama, G. Kang. <em>Advanced Concurrent Engineering</em>. 2010. 63-70."
   links:
@@ -506,6 +573,7 @@
       url: "https://doi.org/10.1007/978-0-85729-024-3_8"
 - key: "Jin2010"
   year: 2010
+  type: "journal"
   title: "Creative patterns and stimulation in conceptual design"
   citation: "Y. Jin, O. Benami. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2010. 24(2), 191-209."
   links:
@@ -513,6 +581,7 @@
       url: "https://doi.org/10.1017/s0890060410000053"
 - key: "Jin2009"
   year: 2009
+  type: "journal"
   title: "A synthetic DNA based approach to design of adaptive systems"
   citation: "Y. Jin, G.E. Zouein, S.C.-Y. Lu. <em>CIRP Annals - Manufacturing Technology</em>. 2009. 58(1), 153-156."
   links:
@@ -520,6 +589,7 @@
       url: "https://doi.org/10.1016/j.cirp.2009.03.064"
 - key: "Jin2009"
   year: 2009
+  type: "conference"
   title: "Conceptual stress and conceptual strength for functional design-for-reliability"
   citation: "Z. Huang, Y. Jin. <em>2008 Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, DETC 2008</em>. 2009. 4, 437-447."
   links:
@@ -527,6 +597,7 @@
       url: "https://doi.org/10.1115/detc2008-49347"
 - key: "Jin2009"
   year: 2009
+  type: "journal"
   title: "Design methodologies: Industrial and educational applications"
   citation: "T. Tomiyama, P. Gu, Y. Jin, D. Lutters, Ch. Kind, F. Kimura. <em>CIRP Annals - Manufacturing Technology</em>. 2009. 58(2), 543-565."
   links:
@@ -534,6 +605,7 @@
       url: "https://doi.org/10.1016/j.cirp.2009.09.003"
 - key: "Jin2009"
   year: 2009
+  type: "journal"
   title: "Extension of stress and strength interference theory for conceptual design-for-reliability"
   citation: "Z. Huang, Y. Jin. <em>Journal of Mechanical Design</em>. 2009. 131(7), 0710011-07100111."
   links:
@@ -541,6 +613,7 @@
       url: "https://doi.org/10.1115/1.3125885"
 - key: "Jin2009"
   year: 2009
+  type: "conference"
   title: "PMT: Modeling enterprise operations and organizations"
   citation: "M. Yahyaei, Y. Suzuki, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2009. 2(PARTS A AND B), 1061-1074."
   links:
@@ -548,6 +621,7 @@
       url: "https://doi.org/10.1115/detc2009-87117"
 - key: "Jin2009"
   year: 2009
+  type: "conference"
   title: "Reliability prediction methods: A survey and selection for mechanical design-for-reliability"
   citation: "Z. Huang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2009. 3, 759-771."
   links:
@@ -555,11 +629,13 @@
       url: "https://doi.org/10.1115/detc2009-87103"
 - key: "Jin2008"
   year: 2008
+  type: "journal"
   title: "An examination of team effectiveness in distributed and co-located engineering teams"
   citation: "M.C. Yang, Y. Jin. <em>International Journal of Engineering Education</em>. 2008. 24(2), 400-408."
   links: []
 - key: "Jin2008"
   year: 2008
+  type: "conference"
   title: "Conceptual stress and conceptual strength for functional design-for-reliability"
   citation: "Z. Huang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2008. 4, 437-447."
   links:
@@ -567,6 +643,7 @@
       url: "https://doi.org/10.1115/detc2008-49347"
 - key: "Jin2008"
   year: 2008
+  type: "conference"
   title: "Roles of negotiation protocol and strategy in collaborative design"
   citation: "Y. Jin, M. Geslin. <em>Design Computing and Cognition '08 - Proceedings of the 3rd International Conference on Design Computing and Cognition</em>. 2008. 491-510."
   links:
@@ -574,6 +651,7 @@
       url: "https://doi.org/10.1007/978-1-4020-8728-8_26"
 - key: "Jin2008"
   year: 2008
+  type: "conference"
   title: "Study of argumentative negotiation in collaborative design"
   citation: "Y. Jin, M. Geslin. <em>2007 Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, DETC2007</em>. 2008. 3 PART A, 35-44."
   links:
@@ -581,6 +659,7 @@
       url: "https://doi.org/10.1115/detc2007-35710"
 - key: "Jin2007"
   year: 2007
+  type: "journal"
   title: "Design concept generation: A hierarchical coevolutionary approach"
   citation: "Y. Jin, W. Li. <em>Journal of Mechanical Design</em>. 2007. 129(10), 1012-1022."
   links:
@@ -588,6 +667,7 @@
       url: "https://doi.org/10.1115/1.2757190"
 - key: "Jin2007"
   year: 2007
+  type: "journal"
   title: "Impact of argumentative negotiation on collaborative engineering"
   citation: "Y. Jin, M. Geslin, S.C.-Y. Lu. <em>CIRP Annals - Manufacturing Technology</em>. 2007. 56(1), 181-184."
   links:
@@ -595,6 +675,7 @@
       url: "https://doi.org/10.1016/j.cirp.2007.05.043"
 - key: "Jin2006"
   year: 2006
+  type: "journal"
   title: "An information value based approach to design procedure capture"
   citation: "Y. Ishino, Y. Jin. <em>Advanced Engineering Informatics</em>. 2006. 20(1), 89-107."
   links:
@@ -602,6 +683,7 @@
       url: "https://doi.org/10.1016/j.aei.2005.04.002"
 - key: "Jin2006"
   year: 2006
+  type: "book_chapter"
   title: "Co-Evolution and Co-Design of Agile Organizations and Information Systems Through Agent-Based Modeling"
   citation: "M.E. Nissen, Y. Jin. <em>Agile Information Systems: Conceptualization, Construction, and Management</em>. 2006. 266-284."
   links:
@@ -609,6 +691,7 @@
       url: "https://doi.org/10.4324/9780080463681-27"
 - key: "Jin2006"
   year: 2006
+  type: "conference"
   title: "Cyclic statistic based blind parameter estimation of BPSK and QPSK signals"
   citation: "V. Jin, H. Ji. <em>International Conference on Signal Processing Proceedings, ICSP</em>. 2006. 1."
   links:
@@ -616,6 +699,7 @@
       url: "https://doi.org/10.1109/icosp.2006.344452"
 - key: "Jin2006"
   year: 2006
+  type: "journal"
   title: "DAKA: Design activity knowledge acquisition through data-mining"
   citation: "Y. Jin, Y. Ishino. <em>International Journal of Production Research</em>. 2006. 44(14), 2813-2837."
   links:
@@ -623,6 +707,7 @@
       url: "https://doi.org/10.1080/00207540600654533"
 - key: "Jin2006"
   year: 2006
+  type: "conference"
   title: "Fuzzy preference evaluation for hierarchical co-evolutionary design concept generation"
   citation: "W. Li, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2006. 2006."
   links:
@@ -630,6 +715,7 @@
       url: "https://doi.org/10.1115/detc2006-99312"
 - key: "Jin2006"
   year: 2006
+  type: "journal"
   title: "Impact of mental iteration on concept generation"
   citation: "P. Chusilp, Y. Jin. <em>Journal of Mechanical Design</em>. 2006. 128(1), 14-25."
   links:
@@ -637,6 +723,7 @@
       url: "https://doi.org/10.1115/1.2118707"
 - key: "Jin2006"
   year: 2006
+  type: "journal"
   title: "Study of mental iteration in different design situations"
   citation: "Y. Jin, P. Chusilp. <em>Design Studies</em>. 2006. 27(1), 25-55."
   links:
@@ -644,6 +731,7 @@
       url: "https://doi.org/10.1016/j.destud.2005.06.003"
 - key: "Jin2006"
   year: 2006
+  type: "conference"
   title: "Value based design: An objective structuring approach to design concept generation"
   citation: "Y. Jin, D. Kim, M.R. Danesh. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2006. 2006."
   links:
@@ -651,6 +739,7 @@
       url: "https://doi.org/10.1115/detc2006-99497"
 - key: "Jin2005"
   year: 2005
+  type: "conference"
   title: "A context-based approach to engineering design negotiation"
   citation: "M. Geslin, Y. Jin. <em>Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference - DETC2005</em>. 2005. 5, 207-218."
   links:
@@ -658,6 +747,7 @@
       url: "https://doi.org/10.1115/detc2005-85183"
 - key: "Jin2005"
   year: 2005
+  type: "journal"
   title: "A hierarchical Co-evolutionary approach to conceptual design"
   citation: "Y. Jin, W. Li, S.C.-Y. Lu. <em>CIRP Annals - Manufacturing Technology</em>. 2005. 54(1), 155-158."
   links:
@@ -665,6 +755,7 @@
       url: "https://doi.org/10.1016/s0007-8506(07)60072-9"
 - key: "Jin2005"
   year: 2005
+  type: "conference"
   title: "Automated concept generation: A co-evolutionary approach"
   citation: "W. Li, Y. Jin. <em>Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference - DETC2005</em>. 2005. 2 A, 13-23."
   links:
@@ -672,6 +763,7 @@
       url: "https://doi.org/10.1115/detc2005-85125"
 - key: "Jin2005"
   year: 2005
+  type: "conference"
   title: "Cross-cultural virtual design teams: Cultural influences on team performance in global projects"
   citation: "T. Horii, R.E. Levitt, Y. Jin. <em>Construction Research Congress 2005: Broadening Perspectives - Proceedings of the Congress</em>. 2005. 491-500."
   links:
@@ -679,6 +771,7 @@
       url: "https://doi.org/10.1061/40754(183)49"
 - key: "Jin2005"
   year: 2005
+  type: "conference"
   title: "Design theory and methodology introduction"
   citation: "Y. Jin, J. Gershenson. <em>Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference - DETC2005</em>. 2005. 5, 1."
   links:
@@ -686,6 +779,7 @@
       url: "https://doi.org/10.1007/978-1-4612-3646-7_33"
 - key: "Jin2005"
   year: 2005
+  type: "conference"
   title: "Impact of multiple normative systems on organization performance of international joint ventures"
   citation: "T. Horii, Y. Jin, R.E. Levitt. <em>AISB'05 Convention: Social Intelligence and Interaction in Animals, Robots and Agents - Proceedings of the Symposium on Normative Multi-Agent Systems</em>. 2005. 54-64."
   links:
@@ -693,11 +787,13 @@
       url: "https://doi.org/10.4337/9781781956458.00007"
 - key: "Jin2004"
   year: 2004
+  type: "conference"
   title: "16th International conference on design theory and methodology (DTM): Welcome from the chairs"
   citation: "L. Schmidt, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2004. 3."
   links: []
 - key: "Jin2004"
   year: 2004
+  type: "journal"
   title: "Agent based negotiation for collaborative design decision making"
   citation: "Y. Jin, S.C.-Y. Lu. <em>CIRP Annals - Manufacturing Technology</em>. 2004. 53(1), 121-124."
   links:
@@ -705,6 +801,7 @@
       url: "https://doi.org/10.1016/s0007-8506(07)60659-3"
 - key: "Jin2004"
   year: 2004
+  type: "conference"
   title: "Cognitive modeling of iteration in conceptual design"
   citation: "P. Chusllp, V. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2004. 3, 473-485."
   links:
@@ -712,6 +809,7 @@
       url: "https://doi.org/10.1115/detc2004-57521"
 - key: "Jin2003"
   year: 2003
+  type: "conference"
   title: "Work structure based collaborative engineering design"
   citation: "L. Zhao, V. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2003. 3, 865-874."
   links:
@@ -719,6 +817,7 @@
       url: "https://doi.org/10.1115/detc2003/dtm-48681"
 - key: "Jin2002"
   year: 2002
+  type: "journal"
   title: "Acquiring engineering knowledge from design processes"
   citation: "Y. Ishino, Y. Jin. <em>Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</em>. 2002. 16(2), 73-91."
   links:
@@ -726,6 +825,7 @@
       url: "https://doi.org/10.1017/s0890060402020073"
 - key: "Jin2002"
   year: 2002
+  type: "conference"
   title: "An analytical approach to functional design"
   citation: "K.-L. Wang, Y. Jin. <em>ASME 2002 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, IDETC/CIE2002</em>. 2002. 2, 449-459."
   links:
@@ -733,6 +833,7 @@
       url: "https://doi.org/10.1115/detc2002/dac-34084"
 - key: "Jin2002"
   year: 2002
+  type: "conference"
   title: "Creative stimulation in conceptual design"
   citation: "O. Benami, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2002. 4, 251-263."
   links:
@@ -740,6 +841,7 @@
       url: "https://doi.org/10.1115/detc2002/dtm-34023"
 - key: "Jin2002"
   year: 2002
+  type: "journal"
   title: "Estimate design intent: A multiple genetic programming and multivariate analysis based approach"
   citation: "Y. Ishino, Y. Jin. <em>Advanced Engineering Informatics</em>. 2002. 16(2), 107-125."
   links:
@@ -747,6 +849,7 @@
       url: "https://doi.org/10.1016/s1474-0346(01)00005-2"
 - key: "Jin2001"
   year: 2001
+  type: "journal"
   title: "An agent-based decision network for concurrent engineering design"
   citation: "M.R. Danesh, Y. Jin. <em>Concurrent Engineering Research and Applications</em>. 2001. 9(1), 37-47."
   links:
@@ -754,6 +857,7 @@
       url: "https://doi.org/10.1177/1063293x0100900104"
 - key: "Jin2000"
   year: 2000
+  type: "conference"
   title: "AN AGGREGATED VALUE MODEL FOR COLLABORATIVE ENGINEERING DECISIONS"
   citation: "M.R. Danesh, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2000. 3, 117-126."
   links:
@@ -761,6 +865,7 @@
       url: "https://doi.org/10.1115/detc2000/dfm-14030"
 - key: "Jin2000"
   year: 2000
+  type: "conference"
   title: "AN E-DOCUMENTING APPROACH TO CONCEPTUAL DESIGN"
   citation: "O. Benami, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2000. 1, 193-198."
   links:
@@ -768,6 +873,7 @@
       url: "https://doi.org/10.1115/detc2000/cie-14649"
 - key: "Jin2000"
   year: 2000
+  type: "conference"
   title: "MANAGING DEPENDENCIES FOR COLLABORATIVE DESIGN"
   citation: "K.-L. Wang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2000. 4, 93-102."
   links:
@@ -775,6 +881,7 @@
       url: "https://doi.org/10.1115/detc2000/dtm-14552"
 - key: "Jin2000"
   year: 2000
+  type: "conference"
   title: "MODELING COLLABORATIVE ENGINEERING DESIGN PROCESS USING PETRI-NET"
   citation: "L. Zhao, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2000. 1, 117-123."
   links:
@@ -782,6 +889,7 @@
       url: "https://doi.org/10.1115/detc2000/cie-14609"
 - key: "Jin2000"
   year: 2000
+  type: "conference"
   title: "MODELING KNOWLEDGE STRUCTURE FOR COLLABORATIVE ENGINEERING"
   citation: "W. Zhou, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 2000. 1, 125-133."
   links:
@@ -789,6 +897,7 @@
       url: "https://doi.org/10.1115/detc2000/cie-14610"
 - key: "Jin1999"
   year: 1999
+  type: "conference"
   title: "Activeprocess: A process driven and agent-based approach to supporting collaborative engineering"
   citation: "Y. Jin, L. Zhao, A. Raghunath. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 1999. 2, 127-137."
   links:
@@ -796,6 +905,7 @@
       url: "https://doi.org/10.1115/detc99/cie-9099"
 - key: "Jin1999"
   year: 1999
+  type: "conference"
   title: "ADN: An agent-based decision network for concurrent design and manufacturing"
   citation: "M.R. Danesh, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 1999. 4, 1-11."
   links:
@@ -803,6 +913,7 @@
       url: "https://doi.org/10.1115/detc99/dfm-8915"
 - key: "Jin1999"
   year: 1999
+  type: "conference"
   title: "Agent-based knowledge management for collaborative engineering"
   citation: "Y. Jin, W. Zhou. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 1999. 2, 915-926."
   links:
@@ -810,6 +921,7 @@
       url: "https://doi.org/10.1115/detc99/eim-9022"
 - key: "Jin1999"
   year: 1999
+  type: "journal"
   title: "Modeling and Simulating Coordination in Projects"
   citation: "L.Chr. Christensen, T.R. Christiansen, Y. Jin, J. Kunz, R.E. Levitt. <em>Journal of Organizational Computing and Electronic Commerce</em>. 1999. 9(1), 33-56."
   links:
@@ -817,6 +929,7 @@
       url: "https://doi.org/10.1207/s15327744joce0901_3"
 - key: "Jin1999"
   year: 1999
+  type: "conference"
   title: "Modeling dependencies in engineering design"
   citation: "K.-L. Wang, Y. Jin. <em>Proceedings of the ASME Design Engineering Technical Conference</em>. 1999. 3, 389-398."
   links:
@@ -824,6 +937,7 @@
       url: "https://doi.org/10.1115/detc99/dtm-8778"
 - key: "Jin1999"
   year: 1999
+  type: "journal"
   title: "Simulating project work processes and organizations: Toward a micro-contingency theory of organizational design"
   citation: "R.E. Levitt, J. Thomsen, T.R. Christiansen, J.C. Kunz, Y. Jin, C. Nass. <em>Management Science</em>. 1999. 45(11), 1479-1495."
   links:
@@ -831,6 +945,7 @@
       url: "https://doi.org/10.1287/mnsc.45.11.1479"
 - key: "Jin1998"
   year: 1998
+  type: "journal"
   title: "An agent-supported approach to collaborative design"
   citation: "Y. Jin, S.C.-Y. Lu. <em>CIRP Annals - Manufacturing Technology</em>. 1998. 47(1)."
   links:
@@ -838,6 +953,7 @@
       url: "https://doi.org/10.1016/s0007-8506(07)62796-6"
 - key: "Jin1998"
   year: 1998
+  type: "journal"
   title: "The process interchange format and framework"
   citation: "J. Lee, M. Gruninger, Y. Jin, T. Malone, A. Tate, G. Yost. <em>Knowledge Engineering Review</em>. 1998. 13(1), 91-120."
   links:
@@ -845,6 +961,7 @@
       url: "https://doi.org/10.1017/s0269888998001015"
 - key: "Jin1998"
   year: 1998
+  type: "journal"
   title: "The virtual design team"
   citation: "J.C. Kunz, T.R. Christiansen, G.P. Cohen, Y. Jin, R.E. Levitt. <em>Communications of the ACM</em>. 1998. 41(11)."
   links:
@@ -852,6 +969,7 @@
       url: "https://doi.org/10.1145/287831.287844"
 - key: "Jin1997"
   year: 1997
+  type: "journal"
   title: "Object-oriented enterprise modeling and simulation of AEC projects"
   citation: "L.C. Christensen, T.R. Christiansen, Y. Jin, J. Kunz, R.E. Levitt. <em>Computer-Aided Civil and Infrastructure Engineering</em>. 1997. 12(3), 157-170."
   links:
@@ -859,6 +977,7 @@
       url: "https://doi.org/10.1111/0885-9507.00053"
 - key: "Jin1997"
   year: 1997
+  type: "journal"
   title: "Object-oriented enterprise modeling and simulation of AEC Projects"
   citation: "L.Chr. Christensen, T.R. Christiansen, Y. Jin, J. Kunz, R.E. Levitt. <em>Microcomputers in Civil Engineering</em>. 1997. 12(3), 157-170."
   links:
@@ -866,16 +985,19 @@
       url: "https://doi.org/10.1111/0885-9507.00053"
 - key: "Jin1996"
   year: 1996
+  type: "conference"
   title: "Agent-supported framework for collaborative design"
   citation: "Yan Jin, Hiroshi Ohira. <em>Computing in Civil Engineering (New York)</em>. 1996. 529-535."
   links: []
 - key: "Jin1996"
   year: 1996
+  type: "conference"
   title: "Approaches to simulating organizational behavior of concurrent design teams"
   citation: "Yan Jin, Raymond E. Levitt. <em>Computing in Civil Engineering (New York)</em>. 1996. 281-287."
   links: []
 - key: "Jin1996"
   year: 1996
+  type: "journal"
   title: "CE4: Concurrent engineering of product, process, facility, and organization"
   citation: "J.C. Kunz, G.T. Luiten, M.A. Fischer, Y. Jin, R.E. Levitt. <em>Concurrent Engineering Research and Applications</em>. 1996. 4(2), 187-197."
   links:
@@ -883,6 +1005,7 @@
       url: "https://doi.org/10.1177/1063293x9600400208"
 - key: "Jin1996"
   year: 1996
+  type: "journal"
   title: "Modeling and simulation in enterprise integration - A framework and an application in the offshore oil industry"
   citation: "L.C. Christensen, T.R. Christiansen, Y. Jin, J. Kunz, R.E. Levitt. <em>Concurrent Engineering Research and Applications</em>. 1996. 4(3), 247-259."
   links:
@@ -890,16 +1013,19 @@
       url: "https://doi.org/10.1177/1063293x9600400305"
 - key: "Jin1996"
   year: 1996
+  type: "conference"
   title: "Process modeling for design-build project management"
   citation: "Yan Jin, Tore Christiansen, Raymond E. Levitt, Paul Teicholz. <em>Computing in Civil Engineering (New York)</em>. 1996. 642-648."
   links: []
 - key: "Jin1996"
   year: 1996
+  type: "conference"
   title: "Process models in enterprise engineering - tools for enhancing process description"
   citation: "Lars Chr. Christensen, Tore R. Christiansen, Yan Jin. <em>Computing in Civil Engineering (New York)</em>. 1996. 634-641."
   links: []
 - key: "Jin1996"
   year: 1996
+  type: "journal"
   title: "Support for integrated value-based maintenance planning"
   citation: "J.C. Kunz, Y. Jin, R.E. Levitt, S.-D. Lin, P.M. Teicholz. <em>IEEE Expert-Intelligent Systems and their Applications</em>. 1996. 11(4), 35-44."
   links:
@@ -907,16 +1033,19 @@
       url: "https://doi.org/10.1109/64.511775"
 - key: "Jin1996"
   year: 1996
+  type: "conference"
   title: "Virtual Design Team (VDT): Concurrent design of facility products, processes and organizations"
   citation: "Raymond E. Levitt, Tore R. Christiansen, Geoff Cohen, Yan Jin, John C. Kunz. <em>Computing in Civil Engineering (New York)</em>. 1996. 268-274."
   links: []
 - key: "Jin1995"
   year: 1995
+  type: "conference"
   title: "Computational organization analysis for designing concurrent engineering teams"
   citation: "Yan Jin, Raymond E. Levitt. <em>Computing in Civil Engineering (New York)</em>. 1995. 2, 1090-1097."
   links: []
 - key: "Jin1995"
   year: 1995
+  type: "journal"
   title: "The Virtual Design Team: Modeling organizational behavior of concurrent design teams"
   citation: "Y. Jin, R.E. Levitt, T.R. Christiansen, J.C. Kunz. <em>Artificial Intelligence for Engineering, Design, Analysis and Manufacturing</em>. 1995. 9(2), 145-158."
   links:
@@ -924,6 +1053,7 @@
       url: "https://doi.org/10.1017/s0890060400002183"
 - key: "Jin1995"
   year: 1995
+  type: "journal"
   title: "Virtual Design Team: A computer simulation framework for studying organizational aspects of concurrent design"
   citation: "Yan Jin, Raymond E. Levitt, John C. Kunz, Tore R. Christiansen. <em>Simulation</em>. 1995. 64(3), 160-174."
   links:
@@ -931,16 +1061,19 @@
       url: "https://doi.org/10.1177/003754979506400304"
 - key: "Jin1993"
   year: 1993
+  type: "conference"
   title: "Model-based and interactive planning for predictive plant maintenance management"
   citation: "Yan Jin, Raymond E. Levitt. <em>Computing in Civil and Building Engineering</em>. 1993. 1830-1837."
   links: []
 - key: "Jin1992"
   year: 1992
+  type: "conference"
   title: "Design of Project Plans From Fundamental Knowledge of Engineered Systems"
   citation: "Y. Jin, J.C. Kunz, R.E. Levitt, G. Winstanley. <em>AAAI Fall Symposium - Technical Report</em>. 1992. FS-92-03, 149-154."
   links: []
 - key: "Jin1991"
   year: 1991
+  type: "journal"
   title: "Knowledge-based support for management of concurrent, multidisciplinary design"
   citation: "R.E. Levitt, Y. Jin, C.L. Dym. <em>Artificial Intelligence for Engineering, Design, Analysis and Manufacturing</em>. 1991. 5(2), 77-95."
   links:
