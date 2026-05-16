@@ -15,19 +15,21 @@ permalink: /publications/
   </div>
 </section>
 
-<section class="section publications-page" aria-labelledby="publications-page-title">
-  <div class="section-heading">
-    <p class="eyebrow">Selected work</p>
-    <h2 id="publications-page-title">Publications</h2>
-  </div>
-
+<section class="section publications-page" aria-label="Publication lists by type">
   {% assign journal_papers = site.data.publications | where: "type", "journal" %}
   {% assign book_chapters = site.data.publications | where: "type", "book_chapter" %}
   {% assign conference_papers = site.data.publications | where: "type", "conference" %}
   {% assign other_papers = site.data.publications | where: "type", "other" %}
 
+  <nav class="publication-jump-bar" aria-label="Jump to publication type">
+    <a href="#journal-papers-title">Journal Papers</a>
+    <a href="#book-chapters-title">Book Chapters</a>
+    <a href="#conference-papers-title">Conference Papers</a>
+    <a href="#other-papers-title">Other Papers</a>
+  </nav>
+
   <section class="publication-type-section" aria-labelledby="journal-papers-title">
-    <h3 id="journal-papers-title">Journal Papers</h3>
+    <h1 id="journal-papers-title">Journal Papers</h1>
     <div class="publication-list">
       {% for publication in journal_papers %}
         <article>
@@ -47,7 +49,7 @@ permalink: /publications/
   </section>
 
   <section class="publication-type-section" aria-labelledby="book-chapters-title">
-    <h3 id="book-chapters-title">Book Chapters</h3>
+    <h1 id="book-chapters-title">Book Chapters</h1>
     <div class="publication-list">
       {% for publication in book_chapters %}
         <article>
@@ -67,7 +69,7 @@ permalink: /publications/
   </section>
 
   <section class="publication-type-section" aria-labelledby="conference-papers-title">
-    <h3 id="conference-papers-title">Conference Papers</h3>
+    <h1 id="conference-papers-title">Conference Papers</h1>
     <div class="publication-list">
       {% for publication in conference_papers %}
         <article>
@@ -87,7 +89,7 @@ permalink: /publications/
   </section>
 
   <section class="publication-type-section" aria-labelledby="other-papers-title">
-    <h3 id="other-papers-title">Other Papers</h3>
+    <h1 id="other-papers-title">Other Papers</h1>
     <div class="publication-list">
       {% for publication in other_papers %}
         <article>
