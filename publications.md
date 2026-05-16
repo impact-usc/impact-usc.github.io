@@ -29,7 +29,7 @@ permalink: /publications/
   </nav>
 
   <section class="publication-type-section" aria-labelledby="journal-papers-title">
-    <h1 id="journal-papers-title">Journal Papers</h1>
+    <h1 id="journal-papers-title">Journal papers</h1>
     <div class="publication-list">
       {% for publication in journal_papers %}
         <article>
@@ -49,7 +49,7 @@ permalink: /publications/
   </section>
 
   <section class="publication-type-section" aria-labelledby="book-chapters-title">
-    <h1 id="book-chapters-title">Book Chapters</h1>
+    <h1 id="book-chapters-title">Book chapters</h1>
     <div class="publication-list">
       {% for publication in book_chapters %}
         <article>
@@ -69,7 +69,7 @@ permalink: /publications/
   </section>
 
   <section class="publication-type-section" aria-labelledby="conference-papers-title">
-    <h1 id="conference-papers-title">Conference Papers</h1>
+    <h1 id="conference-papers-title">Conference papers</h1>
     <div class="publication-list">
       {% for publication in conference_papers %}
         <article>
@@ -89,7 +89,7 @@ permalink: /publications/
   </section>
 
   <section class="publication-type-section" aria-labelledby="other-papers-title">
-    <h1 id="other-papers-title">Other Papers</h1>
+    <h1 id="other-papers-title">Other papers</h1>
     <div class="publication-list">
       {% for publication in other_papers %}
         <article>
