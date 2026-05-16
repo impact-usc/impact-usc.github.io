@@ -87,57 +87,6 @@ description: USC IMPACT LAB is a research group at USC Viterbi advancing human-c
   </div>
 </section>
 
-<section class="section section-band" id="people" aria-labelledby="people-title">
-  <div class="section-heading">
-    <p class="eyebrow">People</p>
-    <h2 id="people-title">Lab members</h2>
-  </div>
-  <div class="people-grid">
-    {% for person in site.data.people %}
-      <article class="person-card">
-        {% if person.image %}
-          {% if person.profile_url %}
-            <a class="person-photo-link" href="{{ person.profile_url | relative_url }}" aria-label="Open {{ person.name }} profile">
-              <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-            </a>
-          {% else %}
-            <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-          {% endif %}
-        {% else %}
-          <div class="avatar">{{ person.initials }}</div>
-        {% endif %}
-        <h3>{{ person.name }}</h3>
-        <p>{{ person.role }}</p>
-        {% if person.office %}
-          <p class="person-meta">Office: {{ person.office }}</p>
-        {% endif %}
-        <a href="{{ person.url }}">{{ person.link_label }}</a>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section publications" id="publications" aria-labelledby="publications-title">
-  <div class="section-heading">
-    <p class="eyebrow">Publications</p>
-    <h2 id="publications-title">Selected publications</h2>
-  </div>
-  <div class="publication-list">
-    {% for publication in site.data.publications %}
-      <article>
-        <p class="pub-year">{{ publication.year }}</p>
-        <h3>{{ publication.title }}</h3>
-        <p>{{ publication.citation }}</p>
-        <div class="pub-links">
-          {% for link in publication.links %}
-            <a href="{{ link.url }}">{{ link.label }}</a>
-          {% endfor %}
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
 <section class="section section-band news" id="news" aria-labelledby="news-title">
   <div class="section-heading">
     <p class="eyebrow">News</p>
