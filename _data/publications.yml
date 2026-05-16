@@ -1,4 +1,103 @@
-# Generated from assets/publications.bib and enriched with DOI links from Crossref.
+# Generated from assets/publications.bib, assets/pub-addition1.bib, and enriched with DOI links from Crossref.
+- key: "SUZUKI_2026"
+  year: 2026
+  title: "A simulation-based design methodology for service business processes in uncertainty (Case study of IT support business processes to examine the validity of the methodology)"
+  citation: "Yoichiro Suzuki, Kazuo Hiekata, Takuya Nakashima, Yan Jin. <em>Transactions of the JSME (in Japanese)</em>. 2026."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1299/transjsme.25-00166"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1299/transjsme.25-00166"
+- key: "Hu_2026"
+  year: 2026
+  title: "An Enhanced Deep Reinforcement Learning Approach to Motion Planning With Knowledge Transfer and Online Demonstrations"
+  citation: "Chuanhui Hu, Yan Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2026. 26, (9)."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/1.4071614"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/1.4071614"
+- key: "Qiu_2025"
+  year: 2025
+  title: "A Method for Synthesizing Ontology-Based Textual Design Datasets: Evaluating the Potential of Large Language Model in Domain-Specific Dataset Generation"
+  citation: "Yunjian Qiu, Yan Jin. <em>Journal of Mechanical Design</em>. 2025. 147, (4)."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/1.4067478"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/1.4067478"
+- key: "Wang_2025_2"
+  year: 2025
+  title: "Designing Robotic Manipulation: Exploring Knowledge Transfer in CausalWorld"
+  citation: "Xinrui Wang, Yan Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2025. 25, (8)."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/1.4068471"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/1.4068471"
+- key: "Wang_2025"
+  year: 2025
+  title: "Knowledge Capture, Adaptation and Composition (KCAC): A Framework for Cross-Task Curriculum Learning in Robotic Manipulation"
+  citation: "Xinrui Wang, Yan Jin. <em>Volume 2A: 45th Computers and Information in Engineering Conference (CIE)</em>. 2025."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2025-169525"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/detc2025-169525"
+- key: "Aryashad_2025"
+  year: 2025
+  title: "VLAG: Graph-Based Planning for Vision-Language-Action Models in Long Horizon Manipulation Tasks"
+  citation: "Ardalan Aryashad, Yan Jin. <em>Volume 3A: 51st Design Automation Conference (DAC)</em>. 2025."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2025-169527"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/detc2025-169527"
+- key: "Wang_2024"
+  year: 2024
+  title: "Enhancing Efficiency in Collision Avoidance: A Study on Transfer Reinforcement Learning in Autonomous Ships’ Navigation"
+  citation: "Xinrui Wang, Yan Jin. <em>ASME Open Journal of Engineering</em>. 2024. 3."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/1.4065831"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/1.4065831"
+- key: "Hu_2024"
+  year: 2024
+  title: "Enhancing Long-Term Decision Making in Trajectory Planning: Deep Reinforcement Learning With Knowledge Transfer and Online Demonstrations"
+  citation: "Chuanhui Hu, Yan Jin. <em>Volume 3B: 50th Design Automation Conference (DAC)</em>. 2024."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2024-143583"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/detc2024-143583"
+- key: "Huang_2024"
+  year: 2024
+  title: "Impact of Social Learning on Teamwork Efficiency in Learning-Based Self-Organized Systems"
+  citation: "Bingling Huang, Hao Ji, Yan Jin. <em>Volume 3B: 50th Design Automation Conference (DAC)</em>. 2024."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2024-143326"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/detc2024-143326"
+- key: "Ji_2024"
+  year: 2024
+  title: "Impact of Task Constraint on Agent Team Size of Self-Organizing Systems Measured by Effective Entropy"
+  citation: "Hao Ji, Yan Jin. <em>Journal of Computing and Information Science in Engineering</em>. 2024. 24, (8)."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/1.4065343"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/1.4065343"
+- key: "Suzuki_2024"
+  year: 2024
+  title: "Simulation-Based Service Business Process Design Method for Different Types of Demand Fluctuations"
+  citation: "Yoichiro Suzuki, Kazuo Hiekata, Yan Jin. <em>Engineering For Social Change</em>. 2024."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.3233/atde240902"
+    - label: "URL"
+      url: "http://dx.doi.org/10.3233/atde240902"
 - key: "Qiu_2024"
   year: 2024
   title: "ChatGPT and finetuned BERT: A comparative study for developing intelligent design support systems"
@@ -8,6 +107,38 @@
       url: "https://doi.org/10.1016/j.iswa.2023.200308"
     - label: "URL"
       url: "http://dx.doi.org/10.1016/j.iswa.2023.200308"
+- key: "Yan_Jin_214828415"
+  year: 2023
+  title: "Document Understanding-Based Design Support: Language Model Based Design Knowledge Extraction"
+  citation: "Yan Jin, Yunjian Qiu, Yan Jin. <em>Volume 3A: 49th Design Automation Conference (DAC)</em>. 2023."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2023-116746"
+- key: "Yan_Jin_214828446"
+  year: 2023
+  title: "Knowledge Transfer in Self-Organizing Systems and Impact of Social Ability"
+  citation: "Yan Jin, Bingling Huang, Yan Jin. <em>Volume 3B: 49th Design Automation Conference (DAC)</em>. 2023."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2023-116392"
+- key: "Hu_2023"
+  year: 2023
+  title: "Large-Scale Path Planning in Complex Environments Based on Genetic Algorithm"
+  citation: "Chuanhui Hu, Yan Jin. <em>Volume 3B: 49th Design Automation Conference (DAC)</em>. 2023."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2023-116340"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/detc2023-116340"
+- key: "Wang_2023"
+  year: 2023
+  title: "Transfer Reinforcement Learning: Feature Transferability in Ship Collision Avoidance"
+  citation: "Xinrui Wang, Yan Jin. <em>Volume 3B: 49th Design Automation Conference (DAC)</em>. 2023."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1115/detc2023-116709"
+    - label: "URL"
+      url: "http://dx.doi.org/10.1115/detc2023-116709"
 - key: "Jin2023"
   year: 2023
   title: "ChatGPT and Finetuned BERT: A Comparative Study for Developing Intelligent Design Support Systems"
