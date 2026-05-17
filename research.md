@@ -32,7 +32,7 @@ permalink: /research/
       Over the years, USC IMPACT LAB has established a broad portfolio spanning
       design methodology, AI-based intelligent systems, autonomous systems, and
       multiagent self-organizing systems, with a focus on
-      <strong>AI-integrated engineering</strong>, where people and AI are at the
+      <strong>AI-integrated engineering</strong>, where <strong>People + AI</strong> are at the
       core of engineering.
     </p>
   </div>
