@@ -1,6 +1,6 @@
 - name: "Monohakobi Technology Institute (MTI Co., Ltd.)"
   short_name: "MTI"
-  url: ""
+  url: "https://www.monohakobi.com/en/"
   images:
     - "/assets/images/sponsors/monohakobi-technology-institute-mti-co-ltd.png"
 - name: "BEMAC Corporation"

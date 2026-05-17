@@ -66,16 +66,19 @@ permalink: /people/
   <div class="sponsor-grid collaborator-grid">
     {% for collaborator in site.data.collaborators %}
       <article class="sponsor-card">
-        <div class="sponsor-logo-wrap{% if collaborator.images.size > 1 %} sponsor-logo-group{% endif %}">
-          {% for image in collaborator.images %}
-            <img src="{{ image | relative_url }}" alt="{{ collaborator.name }} logo">
-          {% endfor %}
-        </div>
+        {% if collaborator.url %}
+          <a class="sponsor-logo-link" href="{{ collaborator.url }}" aria-label="Visit {{ collaborator.name }} site">
+        {% endif %}
+          <div class="sponsor-logo-wrap{% if collaborator.images.size > 1 %} sponsor-logo-group{% endif %}">
+            {% for image in collaborator.images %}
+              <img src="{{ image | relative_url }}" alt="{{ collaborator.name }} logo">
+            {% endfor %}
+          </div>
+        {% if collaborator.url %}
+          </a>
+        {% endif %}
         <h3>{{ collaborator.short_name }}</h3>
         <p>{{ collaborator.name }}</p>
-        {% if collaborator.url %}
-          <a href="{{ collaborator.url }}">Visit collaborator site</a>
-        {% endif %}
       </article>
     {% endfor %}
   </div>
