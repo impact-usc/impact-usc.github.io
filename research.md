@@ -43,9 +43,9 @@ permalink: /research/
       <h2 id="design-methodology-title">Design methodology</h2>
       <p>
         IMPACT LAB's research on design methodology advances our understanding of
-        how design processes can be augmented through intelligent systems that
+        how design processes can be augmented through human-AI interactions that
         leverage insights into cognitive design behaviors. We develop
-        computational tools and methodologies that facilitate the creation of
+        research methods and design processes that facilitate the creation of
         innovative designs.
       </p>
       <p>
@@ -57,7 +57,6 @@ permalink: /research/
         search show how data can improve design decision-making and ideation.
       </p>
     </section>
-
     <section class="research-theme-section" id="ai-integrated-engineering-systems" aria-labelledby="ai-integrated-engineering-systems-title">
       <p class="eyebrow">AI-Integrated</p>
       <h2 id="ai-integrated-engineering-systems-title">AI-integrated engineering systems</h2>
@@ -80,7 +79,6 @@ permalink: /research/
         infrastructure, and AI-enabled decision support.
       </p>
     </section>
-
     <section class="research-theme-section" id="self-organizing-systems" aria-labelledby="self-organizing-systems-title">
       <p class="eyebrow">Self-Organizing</p>
       <h2 id="self-organizing-systems-title">Self-organizing systems</h2>
@@ -99,7 +97,6 @@ permalink: /research/
         decision-making.
       </p>
     </section>
-
     <section class="research-theme-section" id="vla-model-based-robots" aria-labelledby="vla-model-based-robots-title">
       <p class="eyebrow">VLA Robots</p>
       <h2 id="vla-model-based-robots-title">VLA model-based robots</h2>
@@ -119,7 +116,6 @@ permalink: /research/
         planning, and specialized action experts.
       </p>
     </section>
-
     <section class="research-theme-section" id="autonomous-systems" aria-labelledby="autonomous-systems-title">
       <p class="eyebrow">Autonomy</p>
       <h2 id="autonomous-systems-title">Autonomous systems</h2>
@@ -142,7 +138,6 @@ permalink: /research/
         <a href="https://youtu.be/tCNArfiYClo">https://youtu.be/tCNArfiYClo</a>.
       </p>
     </section>
-
     <section class="research-theme-section" id="organizational-and-collaborative-engineering" aria-labelledby="organizational-and-collaborative-engineering-title">
       <p class="eyebrow">Organization</p>
       <h2 id="organizational-and-collaborative-engineering-title">Organizational and collaborative engineering</h2>
