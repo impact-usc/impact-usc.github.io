@@ -1,0 +1,25 @@
+- name: "Monohakobi Technology Institute (MTI Co., Ltd.)"
+  short_name: "MTI"
+  url: ""
+  images:
+    - "/assets/images/sponsors/monohakobi-technology-institute-mti-co-ltd.png"
+- name: "BEMAC Corporation"
+  short_name: "BEMAC"
+  url: "https://www.bemac-jp.com/en/"
+  images:
+    - "/assets/images/sponsors/bemac-corporation.png"
+- name: "ClassNK (Nippon Kaiji Kyokai General Incorporated Foundation)"
+  short_name: "ClassNK"
+  url: "https://www.classnk.com/"
+  images:
+    - "/assets/images/sponsors/classnk-nippon-kaiji-kyokai-general-incorporated-foundation.png"
+- name: "OCEANS Collaboratory at the University of Osaka"
+  short_name: "OCEANS Collaboratory"
+  url: "https://www-naoe.eng.osaka-u.ac.jp/naoe/naoe10/index.htm"
+  images:
+    - "/assets/images/sponsors/open-collaboration-laboratory-for-enabling-advanced-marine-systems-university-of-osaka.png"
+- name: "Maritime & Digital Engineering Laboratory at the University of Tokyo"
+  short_name: "MODE Lab at the University of Tokyo"
+  url: "https://mode.k.u-tokyo.ac.jp/"
+  images:
+    - "/assets/images/sponsors/maritime-digital-engineering-laboratory-at-the-university-of-tokyo.png"

@@ -485,6 +485,10 @@ a:hover {
   line-height: 1.2;
 }
 
+.sponsor-card p {
+  color: var(--muted);
+}
+
 .sponsor-card a {
   margin-top: auto;
   font-weight: 800;

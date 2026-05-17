@@ -24,7 +24,6 @@ permalink: /people/
   </nav>
 
   {% assign lab_members = site.data.people | where: "group", "current" %}
-  {% assign collaborators = site.data.people | where_exp: "person", "person.group == 'collaborator' or person.group == 'collaborators' or person.group == 'industry'" %}
   {% assign former_members = site.data.people | where: "group", "alumni" %}
 
   <section class="people-type-section" aria-labelledby="lab-members-title">
@@ -64,26 +63,19 @@ permalink: /people/
     <h2 id="collaborators-title">Collaborators</h2>
   </div>
 
-  <div class="people-grid people-page-grid">
-    {% for person in collaborators %}
-      <article class="person-card">
-        {% if person.image %}
-          {% if person.profile_url %}
-            <a class="person-photo-link" href="{{ person.profile_url | relative_url }}" aria-label="Open {{ person.name }} profile">
-              <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-            </a>
-          {% else %}
-            <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-          {% endif %}
-        {% else %}
-          <div class="avatar">{{ person.initials }}</div>
+  <div class="sponsor-grid collaborator-grid">
+    {% for collaborator in site.data.collaborators %}
+      <article class="sponsor-card">
+        <div class="sponsor-logo-wrap{% if collaborator.images.size > 1 %} sponsor-logo-group{% endif %}">
+          {% for image in collaborator.images %}
+            <img src="{{ image | relative_url }}" alt="{{ collaborator.name }} logo">
+          {% endfor %}
+        </div>
+        <h3>{{ collaborator.short_name }}</h3>
+        <p>{{ collaborator.name }}</p>
+        {% if collaborator.url %}
+          <a href="{{ collaborator.url }}">Visit collaborator site</a>
         {% endif %}
-        <h3>{{ person.name }}</h3>
-        <p>{{ person.role }}</p>
-        {% if person.office %}
-          <p class="person-meta">Office: {{ person.office }}</p>
-        {% endif %}
-        <a href="{{ person.url }}">{{ person.link_label }}</a>
       </article>
     {% endfor %}
   </div>
