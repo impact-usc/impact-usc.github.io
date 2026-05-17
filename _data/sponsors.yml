@@ -59,10 +59,6 @@
   url: "https://www.nsyc.co.jp/en/"
   images:
     - "/assets/images/sponsors/nihon-shipyard-co-ltd.png"
-- name: "Japan Marine Science Inc."
-  url: "https://www.jms-inc.jp/en/"
-  images:
-    - "/assets/images/sponsors/japan-marine-science-inc.jpeg"
 - name: "BEMAC Corporation"
   url: "https://www.bemac-jp.com/en/"
   images:
@@ -71,6 +67,10 @@
   url: "https://www.tokyokeiki.jp/e"
   images:
     - "/assets/images/sponsors/tokyo-keiki-inc.png"
+- name: "Japan Marine Science Inc."
+  url: "https://www.jms-inc.jp/en/"
+  images:
+    - "/assets/images/sponsors/japan-marine-science-inc.jpeg"
 - name: "UNI-X NCT Corporation"
   url: "https://www.uni-xnct.com/english"
   images:
