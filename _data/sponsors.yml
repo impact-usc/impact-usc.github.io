@@ -23,6 +23,10 @@
   url: "https://mode.k.u-tokyo.ac.jp/"
   images:
     - "/assets/images/sponsors/maritime-digital-engineering-laboratory-at-the-university-of-tokyo.png"
+- name: "The Open Collaboration Laboratory for Enabling Advanced Marine Systems at the University of Osaka"
+  url: "https://www-naoe.eng.osaka-u.ac.jp/naoe/naoe10/index.htm"
+  images:
+    - "/assets/images/sponsors/open-collaboration-laboratory-for-enabling-advanced-marine-systems-university-of-osaka.png"
 - name: "ClassNK (Nippon Kaiji Kyokai General Incorporated Foundation)"
   url: "https://www.classnk.com/"
   images:
