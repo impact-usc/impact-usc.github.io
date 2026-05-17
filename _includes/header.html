@@ -16,7 +16,7 @@
     </button>
 
     <div class="nav-links" id="site-menu">
-      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} aria-current="page"{% endif %}>Research</a>
       <a href="{{ '/people/' | relative_url }}"{% if page.url == '/people/' %} aria-current="page"{% endif %}>People</a>
       <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
       <a href="{{ '/#news' | relative_url }}">News</a>

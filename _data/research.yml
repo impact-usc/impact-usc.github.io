@@ -1,10 +1,24 @@
 - index: "01"
-  title: Human-Centered AI
-  summary: Designing learning systems that augment expertise, support transparent decisions, and remain accountable to the communities they affect.
-  url: /human-centered-ai/
+  title: Design methodology
+  summary: Developing intelligent design support methods that improve creativity, efficiency, knowledge extraction, and design decision-making.
+  url: /research/#design-methodology
 - index: "02"
-  title: Data-Driven Systems
-  summary: Turning complex, multimodal data into reliable models, metrics, and tools for engineering, health, mobility, and public-interest applications.
+  title: AI-integrated engineering systems
+  summary: Embedding agentic AI into engineering workflows, digital threads, SysML modeling, lifecycle data backbones, and toolchain integration.
+  url: /research/#ai-integrated-engineering-systems
 - index: "03"
-  title: Impact Evaluation
-  summary: Measuring how research prototypes perform in context through experiments, field studies, stakeholder feedback, and deployment-aware evaluation.
+  title: Self-organizing systems
+  summary: Studying decentralized multiagent systems that learn, adapt, collaborate, and solve complex engineering problems through emergent behavior.
+  url: /research/#self-organizing-systems
+- index: "04"
+  title: VLA model-based robots
+  summary: Building vision-language-action robotic systems for autonomous, interpretable, and scalable operation in manufacturing jobshops.
+  url: /research/#vla-model-based-robots
+- index: "05"
+  title: Autonomous systems
+  summary: Improving the safety, reliability, and efficiency of autonomous navigation, ship collision avoidance, and risk-aware path planning.
+  url: /research/#autonomous-systems
+- index: "06"
+  title: Organizational and collaborative engineering
+  summary: Modeling how teams, organizations, negotiation, and collaboration shape the success of complex engineering projects.
+  url: /research/#organizational-and-collaborative-engineering

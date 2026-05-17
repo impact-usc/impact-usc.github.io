@@ -549,7 +549,8 @@ a:hover {
 }
 
 .publication-jump-bar,
-.people-jump-bar {
+.people-jump-bar,
+.research-jump-bar {
   position: sticky;
   top: 76px;
   z-index: 20;
@@ -565,7 +566,8 @@ a:hover {
 }
 
 .publication-jump-bar a,
-.people-jump-bar a {
+.people-jump-bar a,
+.research-jump-bar a {
   display: inline-flex;
   align-items: center;
   min-height: 38px;
@@ -580,7 +582,8 @@ a:hover {
 }
 
 .publication-jump-bar a:hover,
-.people-jump-bar a:hover {
+.people-jump-bar a:hover,
+.research-jump-bar a:hover {
   border-color: var(--usc-cardinal);
   background: var(--soft);
 }
@@ -588,6 +591,38 @@ a:hover {
 .publication-type-section,
 .people-type-section {
   margin-top: 2rem;
+}
+
+.research-intro {
+  max-width: 860px;
+  margin-bottom: 2rem;
+  color: #333943;
+  font-size: 1.08rem;
+}
+
+.research-theme-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.research-theme-section {
+  padding: 1.35rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.research-theme-section h2 {
+  margin: 0 0 0.85rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.55rem, 2.6vw, 2.25rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.research-theme-section p:not(.eyebrow) {
+  max-width: 900px;
+  color: #333943;
 }
 
 .publication-type-section > h1 {
