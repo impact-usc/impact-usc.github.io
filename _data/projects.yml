@@ -1,9 +1,96 @@
-- tag: Platform
-  title: Interactive decision support for domain experts
-  summary: Placeholder summary for a project that combines modeling, visualization, and workflow design to help collaborators reason about complex tradeoffs.
-- tag: Methods
-  title: Robust learning from messy real-world data
-  summary: Placeholder summary for a project focused on uncertainty, bias, missing data, and evaluation methods for systems deployed outside controlled settings.
-- tag: Translation
-  title: Community-partnered engineering research
-  summary: Placeholder summary for a project that works with public agencies, clinicians, educators, or industry partners to move research toward practical impact.
+- category: ongoing
+  tag: AI-Integrated Design
+  title: AIDIO - AI-Integrated Design, Inspection, and Optimization
+  image: /assets/images/projects/aidio.png
+  alt: AIDIO workflow diagram linking ship design, AI agents, inspection, optimization, simulation, and robot-ready production data.
+  brief: An AI-agent-based platform that connects ship design, inspection, optimization, simulation, and robot-ready production data.
+  summary: >-
+    AIDIO develops an AI-agent-based platform for ship design, inspection, and
+    optimization. The project addresses a central bottleneck in automated
+    shipbuilding: the lack of a continuous digital thread from design intent to
+    robot-ready production data. By coordinating design agents, rule-grounded
+    inspection, multi-objective optimization, production simulation, and
+    governance-enabled execution, AIDIO aims to help shipyards generate
+    consistent design artifacts, verify them against engineering and
+    classification constraints, and refine them through closed-loop feedback
+    before physical execution.
+- category: ongoing
+  tag: Agentic Systems Engineering
+  title: SEMAA - Systems Engineering Modeling with Agentic AI
+  image: /assets/images/projects/semaa.png
+  alt: SEMAA architecture diagram showing AI-assisted systems engineering modeling and tool integration.
+  brief: An agentic AI assistant for model-based systems engineering in maritime and ocean engineering domains.
+  summary: >-
+    SEMAA develops an intelligent modeling assistant for model-based systems
+    engineering in maritime and ocean engineering. Built around recent advances
+    in large language models, agent frameworks, and domain-grounded knowledge
+    organization, SEMAA is designed to understand engineering commands,
+    interpret domain-specific language, and generate useful SysML and systems
+    engineering artifacts. The project aims to bridge theoretical MBSE concepts
+    and practical industrial workflows by integrating modeling tools, structured
+    knowledge, and expert feedback from real-world engineering collaborators.
+- category: ongoing
+  tag: Process Intelligence
+  title: AIPM - AI-Integrated Process Management
+  image: /assets/images/projects/aipm.png
+  alt: AIPM process management architecture connecting modeling, scheduling, GitLab, GraphRAG, Microsoft Project, and AI agents.
+  brief: A model-based process intelligence platform for planning, scheduling, traceability, and change management.
+  summary: >-
+    AIPM creates an intelligent, model-based platform for managing complex
+    engineering and manufacturing processes in the switchboard domain. The
+    project makes process knowledge explicit by representing tasks,
+    dependencies, roles, resources, versions, and change impacts in forms that
+    both people and AI systems can use. By combining process modeling,
+    scheduling, version control, GraphRAG-grounded reasoning, and
+    human-in-the-loop decision support, AIPM aims to reduce fragmented manual
+    work, improve visibility into risks and status, and support better planning
+    and coordination across design and manufacturing activities.
+- category: ongoing
+  tag: Self-Organizing Manufacturing
+  title: SmartSOM - Self-Organizing Manufacturing System Integration
+  image: /assets/images/projects/smartsom.png
+  alt: SmartSOM conceptual diagram showing multiagent learning and self-organizing manufacturing systems.
+  brief: Multiagent self-organizing manufacturing methods for personalized production under volatile market conditions.
+  summary: >-
+    SmartSOM investigates self-organizing manufacturing systems for personalized
+    production in volatile markets. The project develops multiagent learning
+    methods that allow distributed manufacturing agents to coordinate without
+    relying on rigid centralized control. By combining task-constraint modeling,
+    social learning, organizational learning, multiagent reinforcement learning,
+    and hardware-based validation, SmartSOM aims to create manufacturing systems
+    that can adapt to changing product recipes, uncertain demand, and
+    heterogeneous resources while remaining robust, efficient, and scalable.
+- category: ongoing
+  tag: Robotic Operations
+  title: VLAG - VLA with Graph Modeling for Robotic Operations
+  image: /assets/images/projects/vlag.png
+  alt: VLAG architecture diagram showing graph-based routing for vision-language-action robotic experts.
+  brief: A graph-routed vision-language-action framework for modular, interpretable robotic operations.
+  summary: >-
+    VLAG develops a modular vision-language-action framework for long-horizon
+    robotic operations. Instead of relying on a single monolithic policy, the
+    project uses graph-based task routing to coordinate specialized compact
+    experts for perception, language understanding, planning, and action
+    generation. This structure is intended to make robotic intelligence more
+    interpretable, scalable, and efficient for manufacturing jobshop
+    environments where robots must understand instructions, perceive changing
+    workspaces, and execute complex sequences of actions autonomously.
+- category: previous
+  tag: Autonomous Ships
+  title: AutonoShip - Building a Technological Basis of Autonomous Ships
+  image: /assets/images/projects/autonoship-framework.png
+  alt: AutonoShip system framework diagram showing ShipWare and autonomous ship application layers.
+  brief: A ShipWare-based autonomy framework for navigation, collision avoidance, engine-room monitoring, and ship operations.
+  summary: >-
+    AutonoShip developed a technological foundation for autonomous ships through
+    the ShipWare framework and a set of intelligent applications for navigation,
+    collision avoidance, engine-room monitoring, remote autonomy, and regulatory
+    support. The project explored ROS-based ship system architecture, multi-layer
+    sensing and decision-making, and AI approaches to collision avoidance from
+    mathematical, human-knowledge, and reinforcement-learning perspectives. The
+    work contributed to autonomous vessel decision support by connecting
+    situation awareness, risk modeling, human steering data, and
+    simulation-trained intelligence within a unified ship autonomy framework.
+  links:
+    - label: Project video
+      url: https://youtu.be/tCNArfiYClo
