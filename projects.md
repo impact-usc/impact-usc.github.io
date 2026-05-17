@@ -37,9 +37,6 @@ permalink: /projects/
       {% assign ongoing_projects = site.data.projects | where: "category", "ongoing" %}
       {% for project in ongoing_projects %}
         <article class="project-overview-card" id="{{ project.title | slugify }}">
-          <figure>
-            <img src="{{ project.image | relative_url }}" alt="{{ project.alt }}">
-          </figure>
           <div class="project-overview-content">
             <p class="eyebrow">{{ project.tag }}</p>
             <h3>{{ project.title }}</h3>
@@ -52,6 +49,9 @@ permalink: /projects/
               </div>
             {% endif %}
           </div>
+          <figure>
+            <img src="{{ project.image | relative_url }}" alt="{{ project.alt }}">
+          </figure>
         </article>
       {% endfor %}
     </div>
@@ -63,9 +63,6 @@ permalink: /projects/
       {% assign previous_projects = site.data.projects | where: "category", "previous" %}
       {% for project in previous_projects %}
         <article class="project-overview-card" id="{{ project.title | slugify }}">
-          <figure>
-            <img src="{{ project.image | relative_url }}" alt="{{ project.alt }}">
-          </figure>
           <div class="project-overview-content">
             <p class="eyebrow">{{ project.tag }}</p>
             <h3>{{ project.title }}</h3>
@@ -78,6 +75,9 @@ permalink: /projects/
               </div>
             {% endif %}
           </div>
+          <figure>
+            <img src="{{ project.image | relative_url }}" alt="{{ project.alt }}">
+          </figure>
         </article>
       {% endfor %}
     </div>
