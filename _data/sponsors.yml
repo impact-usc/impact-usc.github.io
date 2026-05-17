@@ -1,0 +1,77 @@
+- name: "National Science Foundation"
+  url: "https://www.nsf.gov"
+  images:
+    - "/assets/images/sponsors/national-science-foundation.jpeg"
+- name: "USC Transportation Command"
+  url: "https://www.ustranscom.mil"
+  images:
+    - "/assets/images/sponsors/usc-transportation-command.png"
+- name: "Jet Propulsion Laboratory"
+  url: "https://www.jpl.nasa.gov"
+  images:
+    - "/assets/images/sponsors/jet-propulsion-laboratory.jpeg"
+- name: "Center for Edge Power (DoD) at Naval Postgraduate School"
+  url: "https://nps.edu/web/research/-/center-for-edge-power-2008"
+  images:
+    - "/assets/images/sponsors/center-for-edge-power-dod-at-naval-postgraduate-school-1.jpeg"
+    - "/assets/images/sponsors/center-for-edge-power-dod-at-naval-postgraduate-school-2.png"
+- name: "Japan National Maritime Research Institute"
+  url: "https://www.nmri.go.jp/en/"
+  images:
+    - "/assets/images/sponsors/japan-national-maritime-research-institute.png"
+- name: "Maritime & Digital Engineering Laboratory at the University of Tokyo"
+  url: "https://mode.k.u-tokyo.ac.jp/"
+  images:
+    - "/assets/images/sponsors/maritime-digital-engineering-laboratory-at-the-university-of-tokyo.png"
+- name: "ClassNK (Nippon Kaiji Kyokai General Incorporated Foundation)"
+  url: "https://www.classnk.com/"
+  images:
+    - "/assets/images/sponsors/classnk-nippon-kaiji-kyokai-general-incorporated-foundation.png"
+- name: "Ford Motor Company"
+  url: "https://www.ford.com/"
+  images:
+    - "/assets/images/sponsors/ford-motor-company.png"
+- name: "Philips"
+  url: "https://www.usa.philips.com"
+  images:
+    - "/assets/images/sponsors/philips.png"
+- name: "Toyota Motor Corporation"
+  url: "https://www.toyota.com"
+  images:
+    - "/assets/images/sponsors/toyota-motor-corporation.jpeg"
+- name: "Toyota Caelum Corporation (now Toyota Systems)"
+  url: ""
+  images:
+    - "/assets/images/sponsors/toyota-caelum-corporation-now-toyota-systems.jpeg"
+- name: "Nippon Yusen Kaisha Group"
+  url: "https://www.nyk.com"
+  images:
+    - "/assets/images/sponsors/nippon-yusen-kaisha-group.jpeg"
+- name: "Monohakobi Technology Institute (MTI Co., Ltd.)"
+  url: ""
+  images:
+    - "/assets/images/sponsors/monohakobi-technology-institute-mti-co-ltd.png"
+- name: "Japan Marine United Corporation"
+  url: "https://www.jmuc.co.jp/en"
+  images:
+    - "/assets/images/sponsors/japan-marine-united-corporation.gif"
+- name: "Nihon Shipyard Co., Ltd."
+  url: "https://www.nsyc.co.jp/en/"
+  images:
+    - "/assets/images/sponsors/nihon-shipyard-co-ltd.png"
+- name: "Japan Marine Science Inc."
+  url: "https://www.jms-inc.jp/en/"
+  images:
+    - "/assets/images/sponsors/japan-marine-science-inc.jpeg"
+- name: "BEMAC Corporation"
+  url: "https://www.bemac-jp.com/en/"
+  images:
+    - "/assets/images/sponsors/bemac-corporation.png"
+- name: "Tokyo Keiki Inc."
+  url: "https://www.tokyokeiki.jp/e"
+  images:
+    - "/assets/images/sponsors/tokyo-keiki-inc.png"
+- name: "UNI-X NCT Corporation"
+  url: "https://www.uni-xnct.com/english"
+  images:
+    - "/assets/images/sponsors/uni-x-nct-corporation.jpeg"
