@@ -729,6 +729,7 @@ a:hover {
 }
 
 .project-overview-card img {
+  width: 75%;
   max-width: 100%;
   display: block;
   object-fit: contain;
