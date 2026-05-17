@@ -44,7 +44,7 @@
   images:
     - "/assets/images/sponsors/toyota-motor-corporation.jpeg"
 - name: "Toyota Caelum Corporation (now Toyota Systems)"
-  url: ""
+  url: "https://www.toyotasystems.com/en/"
   images:
     - "/assets/images/sponsors/toyota-caelum-corporation-now-toyota-systems.jpeg"
 - name: "Nippon Yusen Kaisha Group"
@@ -52,7 +52,7 @@
   images:
     - "/assets/images/sponsors/nippon-yusen-kaisha-group.jpeg"
 - name: "Monohakobi Technology Institute (MTI Co., Ltd.)"
-  url: ""
+  url: "https://www.monohakobi.com/en/"
   images:
     - "/assets/images/sponsors/monohakobi-technology-institute-mti-co-ltd.png"
 - name: "Japan Marine United Corporation"

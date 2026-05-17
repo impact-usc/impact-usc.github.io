@@ -26,15 +26,18 @@ permalink: /sponsors/
   <div class="sponsor-grid">
     {% for sponsor in site.data.sponsors %}
       <article class="sponsor-card">
-        <div class="sponsor-logo-wrap{% if sponsor.images.size > 1 %} sponsor-logo-group{% endif %}">
-          {% for image in sponsor.images %}
-            <img src="{{ image | relative_url }}" alt="{{ sponsor.name }} logo">
-          {% endfor %}
-        </div>
-        <h3>{{ sponsor.name }}</h3>
         {% if sponsor.url %}
-          <a href="{{ sponsor.url }}">Visit sponsor site</a>
+          <a class="sponsor-logo-link" href="{{ sponsor.url }}" aria-label="Visit {{ sponsor.name }} site">
         {% endif %}
+          <div class="sponsor-logo-wrap{% if sponsor.images.size > 1 %} sponsor-logo-group{% endif %}">
+            {% for image in sponsor.images %}
+              <img src="{{ image | relative_url }}" alt="{{ sponsor.name }} logo">
+            {% endfor %}
+          </div>
+        {% if sponsor.url %}
+          </a>
+        {% endif %}
+        <h3>{{ sponsor.name }}</h3>
       </article>
     {% endfor %}
   </div>

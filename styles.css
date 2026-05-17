@@ -489,9 +489,21 @@ a:hover {
   color: var(--muted);
 }
 
-.sponsor-card a {
-  margin-top: auto;
-  font-weight: 800;
+.sponsor-logo-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.sponsor-logo-link:hover .sponsor-logo-wrap {
+  border-color: var(--usc-cardinal);
+  background: var(--soft);
+}
+
+.sponsor-logo-link:focus-visible {
+  border-radius: var(--radius);
+  outline: 3px solid var(--usc-cardinal);
+  outline-offset: 4px;
 }
 
 .subpage-hero {
