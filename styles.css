@@ -825,9 +825,8 @@ a:hover {
   gap: 0.7rem;
   align-items: start;
   padding: 1.25rem 1.25rem 1.25rem 0.7rem;
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  background: transparent;
+  border: 0;
 }
 
 .news-card-full figure {
@@ -835,8 +834,7 @@ a:hover {
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
-  background: var(--paper);
-  border-radius: var(--radius);
+  background: transparent;
 }
 
 .news-card-full img {
