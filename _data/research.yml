@@ -1,19 +1,19 @@
 - index: "01"
-  title: Design methodology
-  summary: Developing intelligent design support methods that improve creativity, efficiency, knowledge extraction, and design decision-making.
-  url: /research/#design-methodology
-- index: "02"
   title: AI-integrated engineering systems
   summary: Embedding agentic AI into engineering workflows, digital threads, SysML modeling, lifecycle data backbones, and toolchain integration.
   url: /research/#ai-integrated-engineering-systems
-- index: "03"
+- index: "02"
   title: Self-organizing systems
   summary: Studying decentralized multiagent systems that learn, adapt, collaborate, and solve complex engineering problems through emergent behavior.
   url: /research/#self-organizing-systems
-- index: "04"
+- index: "03"
   title: VLA model-based robots
   summary: Building vision-language-action robotic systems for autonomous, interpretable, and scalable operation in manufacturing jobshops.
   url: /research/#vla-model-based-robots
+- index: "04"
+  title: Design methods
+  summary: Developing intelligent design support methods that improve creativity, efficiency, knowledge extraction, and design decision-making.
+  url: /research/#design-methodology
 - index: "05"
   title: Autonomous systems
   summary: Improving the safety, reliability, and efficiency of autonomous navigation, ship collision avoidance, and risk-aware path planning.
