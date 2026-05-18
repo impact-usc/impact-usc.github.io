@@ -104,13 +104,16 @@ description: USC IMPACT LAB is a research group at USC Viterbi advancing human-c
     <h2 id="news-title">Latest updates</h2>
   </div>
   <div class="news-grid">
-    {% for item in site.data.news %}
+    {% for item in site.data.news limit: 3 %}
       <article>
         <time datetime="{{ item.date }}">{{ item.date | date: "%b %-d, %Y" }}</time>
         <h3>{{ item.title }}</h3>
         <p>{{ item.summary }}</p>
       </article>
     {% endfor %}
+  </div>
+  <div class="section-action">
+    <a class="button primary" href="{{ '/news/' | relative_url }}">More news</a>
   </div>
 </section>
 

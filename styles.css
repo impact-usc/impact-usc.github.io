@@ -363,6 +363,12 @@ a:hover {
   letter-spacing: 0;
 }
 
+.section-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.4rem;
+}
+
 .intro {
   display: grid;
   grid-template-columns: 0.75fr 1fr;
