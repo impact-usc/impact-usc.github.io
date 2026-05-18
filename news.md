@@ -29,6 +29,13 @@ permalink: /news/
           <time datetime="{{ item.date }}">{{ item.date | date: "%b %-d, %Y" }}</time>
           <h2>{{ item.title }}</h2>
           <p>{{ item.description | default: item.summary }}</p>
+          {% if item.links %}
+            <div class="news-card-links">
+              {% for link in item.links %}
+                <a href="{{ link.url }}">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </article>
     {% endfor %}

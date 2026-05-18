@@ -875,6 +875,31 @@ a:hover {
   color: #333943;
 }
 
+.news-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.news-card-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgba(153, 0, 0, 0.22);
+  border-radius: var(--radius);
+  color: var(--usc-cardinal);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.news-card-links a:hover {
+  border-color: var(--usc-cardinal);
+  background: var(--soft);
+}
+
 .project-list article,
 .publication-list article {
   display: grid;
