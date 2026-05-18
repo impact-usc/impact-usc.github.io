@@ -166,6 +166,13 @@
     highlight the lab's growing research direction in robotic intelligence,
     reinforcement learning, curriculum learning, and modular planning methods
     for long-horizon manipulation tasks.
+  links:
+    - label: VLAG
+      url: https://doi.org/10.1115/DETC2025-169527
+    - label: KCAC
+      url: https://doi.org/10.1115/DETC2025-169525
+
+
 - date: 2025-08-18
   title: Yan Jin receives the ASME Design Theory and Methodology Award
   image: /assets/images/hero-images/hero-6.jpeg
