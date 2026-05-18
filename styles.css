@@ -814,6 +814,54 @@ a:hover {
   background: var(--soft);
 }
 
+.news-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.news-card-full {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.75fr) minmax(0, 1.5fr);
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1.25rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.news-card-full figure {
+  margin: 0;
+  overflow: hidden;
+  background: var(--paper);
+  border-radius: var(--radius);
+}
+
+.news-card-full img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.news-card-full time {
+  color: var(--usc-cardinal);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.news-card-full h2 {
+  margin: 0.45rem 0 0.55rem;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.12;
+}
+
+.news-card-full p {
+  margin: 0;
+  color: #333943;
+}
+
 .project-list article,
 .publication-list article {
   display: grid;
@@ -1036,6 +1084,7 @@ a:hover {
   .profile-layout,
   .project-list article,
   .project-overview-card,
+  .news-card-full,
   .publication-list article,
   .join-panel,
   .site-footer {
