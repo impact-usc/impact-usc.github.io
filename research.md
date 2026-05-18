@@ -99,7 +99,7 @@ permalink: /research/
     </section>
     <section class="research-theme-section" id="design-methods" aria-labelledby="design-methodology-title">
       <p class="eyebrow">Methodology</p>
-      <h2 id="design-methodology-title">Design methodology</h2>
+      <h2 id="design-methodology-title">Design methods</h2>
       <p>
         IMPACT LAB's research on design methodology advances our understanding of
         how design processes can be augmented through human-AI interactions that
