@@ -17,8 +17,8 @@
   profile_url: https://ardal-on.github.io/
   url: mailto:aryashad@usc.edu
   link_label: aryashad@usc.edu
-  project_lead: []
-  projects: [VLAG, SEMAA, AIDIO, AIPM]
+  project_lead: [VLAG, SEMAA]
+  projects: [AIDIO, AIPM]
   group: current
 - initials: JN
   name: Jian Ni
@@ -28,7 +28,7 @@
   profile_url: https://www.linkedin.com/in/j1ann1/
   url: mailto:jianni@usc.edu
   link_label: jianni@usc.edu
-  project_lead: []
+  project_lead: [SmartSOM]
   projects: []
   group: current
 - initials: SS
@@ -39,8 +39,8 @@
   profile_url: https://www.linkedin.com/in/sarasourani/
   url: mailto:souraniy@usc.edu
   link_label: souraniy@usc.edu
-  project_lead: []
-  projects: []
+  project_lead: [AIDIO]
+  projects: [SEMAA, AIPM]
   group: current
 - initials: RM
   name: Rufus Marcuss
@@ -50,7 +50,7 @@
   url: mailto:rmarcuss@usc.edu
   link_label: souraniy@usc.edu
   project_lead: []
-  projects: []
+  projects: [SEMAA, AIPM]
   group: current
 - initials: SD
   name: Shih-Chun (Morris) Deng
@@ -60,8 +60,8 @@
   profile_url: https://www.linkedin.com/in/shih-chun-deng/?locale=en
   url: mailto:dengshih@usc.edu
   link_label: dengshih@usc.edu
-  project_lead: []
-  projects: []
+  project_lead: [AIPM]
+  projects: [SEMAA, AIDIO]
   group: current
 - initials: DY
   name: Dezhao (Derick) Yu
