@@ -19,10 +19,10 @@ permalink: /research/
 
 <section class="section research-page" aria-label="Research themes">
   <nav class="research-jump-bar" aria-label="Jump to research theme">
-    <a href="#design-methodology">Methodology</a>
     <a href="#ai-integrated-engineering-systems">AI-Integrated</a>
     <a href="#self-organizing-systems">Self-Organizing</a>
     <a href="#vla-model-based-robots">VLA Robots</a>
+    <a href="#design-methodology">Methodology</a>
     <a href="#autonomous-systems">Autonomy</a>
     <a href="#organizational-and-collaborative-engineering">Organization</a>
   </nav>
