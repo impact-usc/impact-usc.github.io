@@ -821,6 +821,26 @@ a:hover {
   column-gap: 1.5rem;
 }
 
+.project-card-link {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 150px minmax(0, 1fr);
+  column-gap: 1.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-list article:hover {
+  border-color: rgba(153, 0, 0, 0.32);
+  box-shadow: 0 12px 32px rgba(45, 18, 10, 0.08);
+}
+
+.project-card-link:focus-visible {
+  border-radius: var(--radius);
+  outline: 3px solid var(--usc-cardinal);
+  outline-offset: 4px;
+}
+
 .publication-list article {
   padding: 0.9rem 1.1rem 0.65rem;
 }

@@ -88,9 +88,11 @@ description: USC IMPACT LAB is a research group at USC Viterbi advancing human-c
   <div class="project-list">
     {% for project in site.data.projects %}
       <article>
-        <p class="project-tag">{{ project.tag }}</p>
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.brief | default: project.summary }}</p>
+        <a class="project-card-link" href="{{ '/projects/#' | append: project.anchor | relative_url }}">
+          <p class="project-tag">{{ project.tag }}</p>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.brief | default: project.summary }}</p>
+        </a>
       </article>
     {% endfor %}
   </div>
