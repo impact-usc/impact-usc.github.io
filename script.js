@@ -76,3 +76,18 @@ if (slides.length > 1) {
 } else if (slides.length === 1) {
   setActiveSlide(0);
 }
+
+document.querySelectorAll(".news-card-full figure img").forEach((image) => {
+  const markPortrait = () => {
+    image.parentElement?.classList.toggle(
+      "is-portrait",
+      image.naturalHeight > image.naturalWidth
+    );
+  };
+
+  if (image.complete) {
+    markPortrait();
+  } else {
+    image.addEventListener("load", markPortrait, { once: true });
+  }
+});

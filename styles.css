@@ -850,10 +850,21 @@ a:hover {
   background: transparent;
 }
 
+.news-card-full figure.is-portrait {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .news-card-full img {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.news-card-full figure.is-portrait img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .news-card-full time {
