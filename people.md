@@ -51,6 +51,19 @@ permalink: /people/
         {% if person.office %}
           <p class="person-meta">Office: {{ person.office }}</p>
         {% endif %}
+        {% if person.project_lead and person.project_lead.size > 0 %}
+          <div class="person-projects" aria-label="{{ person.name }} project lead">
+            <span>Project lead:</span>
+            {% for project_acronym in person.project_lead %}
+              {% assign project_match = site.data.projects | where: "acronym", project_acronym | first %}
+              {% if project_match %}
+                <a href="{{ '/projects/#' | append: project_match.anchor | relative_url }}">{{ project_match.acronym }}</a>
+              {% else %}
+                <span>{{ project_acronym }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
         {% if person.projects and person.projects.size > 0 %}
           <div class="person-projects" aria-label="{{ person.name }} projects">
             <span>Projects:</span>
@@ -122,6 +135,19 @@ permalink: /people/
         <p>{{ person.role }}</p>
         {% if person.office %}
           <p class="person-meta">Office: {{ person.office }}</p>
+        {% endif %}
+        {% if person.project_lead and person.project_lead.size > 0 %}
+          <div class="person-projects" aria-label="{{ person.name }} project lead">
+            <span>Project lead:</span>
+            {% for project_acronym in person.project_lead %}
+              {% assign project_match = site.data.projects | where: "acronym", project_acronym | first %}
+              {% if project_match %}
+                <a href="{{ '/projects/#' | append: project_match.anchor | relative_url }}">{{ project_match.acronym }}</a>
+              {% else %}
+                <span>{{ project_acronym }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
         {% endif %}
         {% if person.projects and person.projects.size > 0 %}
           <div class="person-projects" aria-label="{{ person.name }} projects">
