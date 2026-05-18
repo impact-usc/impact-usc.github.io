@@ -97,7 +97,7 @@ permalink: /research/
         planning, and specialized action experts.
       </p>
     </section>
-    <section class="research-theme-section" id="design-methodology" aria-labelledby="design-methodology-title">
+    <section class="research-theme-section" id="design-methods" aria-labelledby="design-methodology-title">
       <p class="eyebrow">Methodology</p>
       <h2 id="design-methodology-title">Design methodology</h2>
       <p>
