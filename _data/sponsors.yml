@@ -59,10 +59,6 @@
   url: "https://www.jms-inc.jp/en/"
   images:
     - "/assets/images/sponsors/japan-marine-science-inc.jpeg"
-- name: "UNI-X NCT Corporation"
-  url: "https://www.uni-xnct.com/english"
-  images:
-    - "/assets/images/sponsors/uni-x-nct-corporation.jpeg"
 - name: "Ford Motor Company"
   url: "https://www.ford.com/"
   images:
@@ -75,6 +71,10 @@
   url: "https://www.toyotasystems.com/en/"
   images:
     - "/assets/images/sponsors/toyota-caelum-corporation-now-toyota-systems.jpeg"
+- name: "UNI-X NCT Corporation"
+  url: "https://www.uni-xnct.com/english"
+  images:
+    - "/assets/images/sponsors/uni-x-nct-corporation.jpeg"
 - name: "Koninklijke Philips N.V."
   url: "https://www.usa.philips.com"
   images:
