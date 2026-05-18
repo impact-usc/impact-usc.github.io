@@ -1,32 +1,19 @@
-- date: 2026-08-15
-  title: USC IMPACT LAB launches its new website
+- date: 2026-05-17
+  title: USC IMPACT LAB launches new GitHub-hosted website
   image: /assets/images/hero-images/hero-1.jpeg
-  alt: IMPACT LAB research visual used as a placeholder for the website launch announcement.
-  summary: Add a short announcement about the lab, its mission, and new opportunities.
+  alt: IMPACT LAB research visual used for the new website announcement.
+  summary: USC IMPACT LAB has launched a new GitHub-hosted website after the previous site went offline due to computer hardware failure.
   description: >-
-    USC IMPACT LAB has launched a new website to share the lab's research
-    themes, projects, publications, people, collaborators, and opportunities.
-    The site will continue to grow as new project descriptions, student
-    profiles, publications, sponsor information, and research updates are added.
-- date: 2026-07-02
-  title: New paper accepted
-  image: /assets/images/hero-images/hero-2.jpeg
-  alt: IMPACT LAB research visual used as a placeholder for a publication announcement.
-  summary: Use this space for publication news, awards, talks, grants, and student milestones.
-  description: >-
-    This news item can be used to highlight accepted papers, conference
-    presentations, journal publications, invited talks, student achievements,
-    awards, grants, and other research milestones from the lab.
-- date: 2026-06-10
-  title: We are recruiting
-  image: /assets/images/hero-images/hero-3.jpeg
-  alt: IMPACT LAB research visual used as a placeholder for a recruiting announcement.
-  summary: Highlight openings for Ph.D. students, undergraduate researchers, and collaborators.
-  description: >-
-    USC IMPACT LAB welcomes students and collaborators interested in intelligent
-    engineering systems, AI-integrated design and manufacturing, autonomous
-    systems, robotics, and self-organizing systems. Future openings and contact
-    information can be described here.
+    USC IMPACT LAB is pleased to launch its new website. Our previous lab site
+    went offline about two months ago after a computer crash and eventual
+    hardware damage. The new site is hosted through GitHub, which makes the lab
+    website easier to maintain, version, update, and recover without relying on
+    a single local machine. The site now provides a more stable home for our
+    research themes, projects, people, publications, sponsors, collaborators,
+    and news. We will continue updating the content over time and welcome
+    feedback from lab members, alumni, collaborators, sponsors, and visitors.
+    Please let us know if you notice missing information, have suggestions for
+    improvement, or would like to contribute content.
 - date: 2026-05-05
   title: Three IMPACT LAB papers accepted to IDETC/CIE 2026
   image: /assets/images/news/idetc2026.png
