@@ -31,22 +31,6 @@
   url: "https://www.classnk.com/"
   images:
     - "/assets/images/sponsors/classnk-nippon-kaiji-kyokai-general-incorporated-foundation.png"
-- name: "Ford Motor Company"
-  url: "https://www.ford.com/"
-  images:
-    - "/assets/images/sponsors/ford-motor-company.png"
-- name: "Koninklijke Philips N.V."
-  url: "https://www.usa.philips.com"
-  images:
-    - "/assets/images/sponsors/philips.png"
-- name: "Toyota Motor Corporation"
-  url: "https://www.toyota.com"
-  images:
-    - "/assets/images/sponsors/toyota-motor-corporation.jpeg"
-- name: "Toyota Caelum Corporation (now Toyota Systems)"
-  url: "https://www.toyotasystems.com/en/"
-  images:
-    - "/assets/images/sponsors/toyota-caelum-corporation-now-toyota-systems.jpeg"
 - name: "Nippon Yusen Kaisha Group"
   url: "https://www.nyk.com"
   images:
@@ -79,3 +63,19 @@
   url: "https://www.uni-xnct.com/english"
   images:
     - "/assets/images/sponsors/uni-x-nct-corporation.jpeg"
+- name: "Ford Motor Company"
+  url: "https://www.ford.com/"
+  images:
+    - "/assets/images/sponsors/ford-motor-company.png"
+- name: "Koninklijke Philips N.V."
+  url: "https://www.usa.philips.com"
+  images:
+    - "/assets/images/sponsors/philips.png"
+- name: "Toyota Motor Corporation"
+  url: "https://www.toyota.com"
+  images:
+    - "/assets/images/sponsors/toyota-motor-corporation.jpeg"
+- name: "Toyota Caelum Corporation (now Toyota Systems)"
+  url: "https://www.toyotasystems.com/en/"
+  images:
+    - "/assets/images/sponsors/toyota-caelum-corporation-now-toyota-systems.jpeg"
