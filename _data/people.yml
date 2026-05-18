@@ -6,6 +6,7 @@
   profile_url: /people/yan-jin/
   url: mailto:yjin@usc.edu
   link_label: yjin@usc.edu
+  projects: []
   group: current
 - initials: AA
   name: Ardalan Aryashad
@@ -15,6 +16,7 @@
   profile_url: https://ardal-on.github.io/
   url: mailto:aryashad@usc.edu
   link_label: aryashad@usc.edu
+  projects: []
   group: current
 - initials: JN
   name: Jian Ni
@@ -24,6 +26,7 @@
   profile_url: https://www.linkedin.com/in/j1ann1/
   url: mailto:jianni@usc.edu
   link_label: jianni@usc.edu
+  projects: []
   group: current
 - initials: SS
   name: Sara Sourani
@@ -33,6 +36,7 @@
   profile_url: https://www.linkedin.com/in/sarasourani/
   url: mailto:souraniy@usc.edu
   link_label: souraniy@usc.edu
+  projects: []
   group: current
 - initials: RM
   name: Rufus Marcuss
@@ -41,6 +45,7 @@
   image: /assets/images/people/rufus.png
   url: mailto:rmarcuss@usc.edu
   link_label: souraniy@usc.edu
+  projects: []
   group: current
 - initials: SD
   name: Shih-Chun (Morris) Deng
@@ -50,6 +55,7 @@
   profile_url: https://www.linkedin.com/in/shih-chun-deng/?locale=en
   url: mailto:dengshih@usc.edu
   link_label: dengshih@usc.edu
+  projects: []
   group: current
 - initials: DY
   name: Dezhao (Derick) Yu
@@ -58,6 +64,7 @@
   image: /assets/images/people/derick.png
   url: mailto:dezhaoyu@usc.edu
   link_label: dezhaoyu@usc.edu
+  projects: []
   group: current
 - initials: CW
   name: Charles Wu
@@ -65,4 +72,5 @@
   image: /assets/images/people/charles.png
   url: mailto:charleswu4159@gmail.com
   link_label: charleswu4159@gmail.com
+  projects: []
   group: current

@@ -51,6 +51,19 @@ permalink: /people/
         {% if person.office %}
           <p class="person-meta">Office: {{ person.office }}</p>
         {% endif %}
+        {% if person.projects and person.projects.size > 0 %}
+          <div class="person-projects" aria-label="{{ person.name }} projects">
+            <span>Projects:</span>
+            {% for project_acronym in person.projects %}
+              {% assign project_match = site.data.projects | where: "acronym", project_acronym | first %}
+              {% if project_match %}
+                <a href="{{ '/projects/#' | append: project_match.anchor | relative_url }}">{{ project_match.acronym }}</a>
+              {% else %}
+                <span>{{ project_acronym }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
         <a href="{{ person.url }}">{{ person.link_label }}</a>
       </article>
     {% endfor %}
@@ -109,6 +122,19 @@ permalink: /people/
         <p>{{ person.role }}</p>
         {% if person.office %}
           <p class="person-meta">Office: {{ person.office }}</p>
+        {% endif %}
+        {% if person.projects and person.projects.size > 0 %}
+          <div class="person-projects" aria-label="{{ person.name }} projects">
+            <span>Projects:</span>
+            {% for project_acronym in person.projects %}
+              {% assign project_match = site.data.projects | where: "acronym", project_acronym | first %}
+              {% if project_match %}
+                <a href="{{ '/projects/#' | append: project_match.anchor | relative_url }}">{{ project_match.acronym }}</a>
+              {% else %}
+                <span>{{ project_acronym }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
         {% endif %}
         <a href="{{ person.url }}">{{ person.link_label }}</a>
       </article>

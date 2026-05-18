@@ -451,6 +451,43 @@ a:hover {
   font-weight: 700;
 }
 
+.person-projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin: -0.15rem 0 0.65rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.25;
+}
+
+.person-projects > span:first-child {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.person-projects a,
+.person-projects span:not(:first-child) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid rgba(153, 0, 0, 0.18);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--usc-cardinal);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.person-projects a:hover {
+  border-color: var(--usc-cardinal);
+  background: var(--soft);
+}
+
 .sponsor-card {
   display: flex;
   flex-direction: column;

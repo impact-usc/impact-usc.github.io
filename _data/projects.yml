@@ -1,4 +1,6 @@
 - category: ongoing
+  acronym: AIDIO
+  anchor: aidio
   tag: AI-Integrated Design
   title: AIDIO - AI-Integrated Design, Inspection, and Optimization
   image: /assets/images/projects/aidio.png
@@ -21,6 +23,8 @@
     data suitable for downstream robotic execution in complex shipyard
     environments.
 - category: ongoing
+  acronym: SEMAA
+  anchor: semaa
   tag: Agentic Systems Engineering
   title: SEMAA - Systems Engineering Modeling with Agentic AI
   image: /assets/images/projects/semaa.png
@@ -42,6 +46,8 @@
     modeling effort, and accelerate the creation of consistent systems models
     for increasingly complex maritime engineering projects.
 - category: ongoing
+  acronym: AIPM
+  anchor: aipm
   tag: Process Intelligence
   title: AIPM - AI-Integrated Process Management
   image: /assets/images/projects/aipm.png
@@ -64,6 +70,8 @@
     understand how design changes propagate through manufacturing tasks,
     resource assignments, schedules, and project risks.
 - category: ongoing
+  acronym: SmartSOM
+  anchor: smartsom
   tag: Self-Organizing Manufacturing
   title: SmartSOM - Self-Organizing Manufacturing System Integration
   image: /assets/images/projects/smartsom.png
@@ -86,6 +94,8 @@
     baselines. Hardware-in-the-loop validation is used to study how simulation
     results transfer into real manufacturing environments.
 - category: ongoing
+  acronym: VLAG
+  anchor: vlag
   tag: Robotic Operations
   title: VLAG - VLA with Graph Modeling for Robotic Operations
   image: /assets/images/projects/vlag.png
@@ -107,6 +117,8 @@
     robotic models that can support flexible manipulation without requiring a
     very large foundation model to reason through every step.
 - category: previous
+  acronym: AutonoShip
+  anchor: autonoship
   tag: Autonomous Ships
   title: AutonoShip - Building a Technological Basis of Autonomous Ships
   image: /assets/images/projects/autonoship-framework.png
