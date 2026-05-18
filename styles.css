@@ -608,6 +608,15 @@ a:hover {
   gap: 1rem;
 }
 
+.project-list article {
+  padding: 0.9rem 1.1rem 0.75rem;
+}
+
+.project-list .project-tag {
+  margin: 0;
+  line-height: 1.2;
+}
+
 .publication-jump-bar,
 .people-jump-bar,
 .research-jump-bar {
@@ -728,7 +737,7 @@ a:hover {
 }
 
 .project-overview-card img {
-  width: 75%;
+  width: 100%;
   max-width: 100%;
   display: block;
   object-fit: contain;
@@ -782,7 +791,11 @@ a:hover {
 .project-list h3,
 .publication-list h3 {
   grid-column: 2;
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.2rem;
+}
+
+.project-list h3 {
+  line-height: 1.12;
 }
 
 .publication-list .pub-citation {
@@ -794,6 +807,11 @@ a:hover {
 .publication-list p:not(.pub-year),
 .pub-links {
   grid-column: 2;
+}
+
+.project-list p:not(.project-tag) {
+  margin: 0;
+  line-height: 1.35;
 }
 
 .avatar {
