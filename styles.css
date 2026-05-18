@@ -821,10 +821,10 @@ a:hover {
 
 .news-card-full {
   display: grid;
-  grid-template-columns: minmax(140px, 0.4fr) minmax(0, 1.85fr);
+  grid-template-columns: minmax(220px, 0.75fr) minmax(0, 1.5fr);
   gap: 1.25rem;
   align-items: start;
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem 1.25rem 0.6rem;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
