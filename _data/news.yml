@@ -31,7 +31,7 @@
     is to develop and test the first prototype AIDIO system, establishing an
     initial foundation for AI-integrated ship design, inspection, and
     optimization research.
-- date: 2026-05-05
+- date: 2026-05-06
   title: Three IMPACT LAB papers accepted to IDETC/CIE 2026
   image: /assets/images/news/idetc2026.png
   alt: IDETC/CIE 2026 conference graphic.
@@ -50,6 +50,24 @@
     "Domain Knowledge Acquisition in AI-Assisted Systems Engineering" by Sara
     Sourani, Shih-Chun Deng, and Yan Jin. Congratulations to Ardalan, Jian,
     Shih-Chun, Sara, and Prof. Jin on this exciting milestone.
+- date: 2026-05-05
+  title: Chuanhui Hu and Yan Jin paper published online in JCISE
+  image: /assets/images/news/hu-jin-jcise-online.png
+  alt: News graphic for the JCISE paper on enhanced deep reinforcement learning for motion planning.
+  summary: A paper by former IMPACT LAB member Dr. Chuanhui Hu and Prof. Yan Jin has been published online in JCISE.
+  description: >-
+    We are pleased to announce that the paper "An Enhanced Deep Reinforcement
+    Learning Approach to Motion Planning With Knowledge Transfer and Online
+    Demonstrations" by former IMPACT LAB member Dr. Chuanhui Hu and Prof. Yan
+    Jin has been published online in the ASME Journal of Computing and
+    Information Science in Engineering. The work advances deep reinforcement
+    learning for long-range motion planning by combining high-level planning
+    policies, knowledge transfer, and online demonstrations from global planning
+    algorithms. This approach improves training efficiency and navigation
+    performance while addressing key challenges such as sparse rewards,
+    long-horizon decision-making, and adaptation in complex environments.
+    Congratulations to Dr. Hu on this important publication and continued
+    contribution to intelligent motion planning research.
 - date: 2026-05-01
   title: Collaborative DOE Genesis Mission proposal submitted
   image: /assets/images/news/doe-genesis-proposal.png
