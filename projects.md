@@ -82,4 +82,5 @@ permalink: /projects/
       {% endfor %}
     </div>
   </section>
+  <p class="more-note">More will be added.</p>
 </section>

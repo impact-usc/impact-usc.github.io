@@ -820,6 +820,13 @@ a:hover {
   background: var(--soft);
 }
 
+.more-note {
+  margin: 2rem 0 0;
+  color: var(--muted);
+  font-weight: 700;
+  text-align: center;
+}
+
 .news-list {
   display: grid;
   gap: 1rem;
