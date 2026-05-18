@@ -821,8 +821,8 @@ a:hover {
 
 .news-card-full {
   display: grid;
-  grid-template-columns: minmax(220px, 0.75fr) minmax(0, 1.5fr);
-  gap: 1.25rem;
+  grid-template-columns: minmax(220px, 0.58fr) minmax(0, 1.9fr);
+  gap: 0.7rem;
   align-items: start;
   padding: 1.25rem 1.25rem 1.25rem 0.7rem;
   background: var(--white);
