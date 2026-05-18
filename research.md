@@ -38,25 +38,6 @@ permalink: /research/
   </div>
 
   <div class="research-theme-list">
-    <section class="research-theme-section" id="design-methodology" aria-labelledby="design-methodology-title">
-      <p class="eyebrow">Methodology</p>
-      <h2 id="design-methodology-title">Design methodology</h2>
-      <p>
-        IMPACT LAB's research on design methodology advances our understanding of
-        how design processes can be augmented through human-AI interactions that
-        leverage insights into cognitive design behaviors. We develop
-        research methods and design processes that facilitate the creation of
-        innovative designs.
-      </p>
-      <p>
-        By integrating AI and machine learning techniques, we aim to develop
-        intelligent design support systems that enhance the creativity and
-        efficiency of design processes. Recent work on ChatGPT and finetuned BERT
-        demonstrates how AI technologies can support intelligent design systems,
-        while studies on design knowledge extraction and data-enabled sketch
-        search show how data can improve design decision-making and ideation.
-      </p>
-    </section>
     <section class="research-theme-section" id="ai-integrated-engineering-systems" aria-labelledby="ai-integrated-engineering-systems-title">
       <p class="eyebrow">AI-Integrated</p>
       <h2 id="ai-integrated-engineering-systems-title">AI-integrated engineering systems</h2>
@@ -114,6 +95,25 @@ permalink: /research/
         investigates modular planning for long-horizon robotic manipulation,
         integrating perception, language understanding, graph-based task
         planning, and specialized action experts.
+      </p>
+    </section>
+    <section class="research-theme-section" id="design-methodology" aria-labelledby="design-methodology-title">
+      <p class="eyebrow">Methodology</p>
+      <h2 id="design-methodology-title">Design methodology</h2>
+      <p>
+        IMPACT LAB's research on design methodology advances our understanding of
+        how design processes can be augmented through human-AI interactions that
+        leverage insights into cognitive design behaviors. We develop
+        research methods and design processes that facilitate the creation of
+        innovative designs.
+      </p>
+      <p>
+        By integrating AI and machine learning techniques, we aim to develop
+        intelligent design support systems that enhance the creativity and
+        efficiency of design processes. Recent work on ChatGPT and finetuned BERT
+        demonstrates how AI technologies can support intelligent design systems,
+        while studies on design knowledge extraction and data-enabled sketch
+        search show how data can improve design decision-making and ideation.
       </p>
     </section>
     <section class="research-theme-section" id="autonomous-systems" aria-labelledby="autonomous-systems-title">
