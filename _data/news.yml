@@ -125,3 +125,25 @@
     future shipyards use AI not only as a design assistant, but as a coordinated
     engineering capability for more productive, traceable, and automation-ready
     shipbuilding.
+- date: 2025-12-18
+  title: SmartSOM proposal submitted to NSF with CSU Fullerton collaborator
+  image: /assets/images/news/smartsom-nsf-proposal.png
+  alt: SmartSOM NSF proposal graphic showing self-organizing manufacturing concepts.
+  summary: IMPACT LAB submitted an NSF proposal on SmartSOM with collaborator Prof. Bingling Huang at CSU Fullerton.
+  description: >-
+    USC IMPACT LAB submitted an NSF proposal on SmartSOM in collaboration with
+    Prof. Bingling Huang at California State University, Fullerton. The proposed
+    research investigates the theoretical and technical foundations for a
+    self-organizing, multiagent manufacturing integration framework designed for
+    highly volatile personalized production environments. The project plan
+    builds on task-constraint modeling, social learning, and organizational
+    learning to help manufacturing agents coordinate dynamic scheduling,
+    resource allocation, and process control without relying on rigid
+    centralized control. The research will study how task constraints can
+    generalize to heterogeneous manufacturing domains, how peer observation can
+    accelerate learning and improve team performance, how organizational norms
+    can emerge among agent teams, and how robustness, adaptability, quality, and
+    efficiency can be measured and balanced. Through simulation and
+    experiment-in-the-loop validation, SmartSOM aims to advance intelligent,
+    resilient, and human-centered manufacturing systems for future personalized
+    markets.
