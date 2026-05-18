@@ -1131,6 +1131,11 @@ a:hover {
     grid-column: auto;
   }
 
+  .project-card-link {
+    grid-template-columns: 1fr;
+    row-gap: 0.45rem;
+  }
+
   .theme-grid,
   .people-grid,
   .news-grid,
