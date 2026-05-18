@@ -833,7 +833,7 @@ a:hover {
 .news-card-full figure {
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   overflow: hidden;
   background: var(--paper);
   border-radius: var(--radius);
