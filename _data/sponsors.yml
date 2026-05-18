@@ -67,10 +67,6 @@
   url: "https://www.ford.com/"
   images:
     - "/assets/images/sponsors/ford-motor-company.png"
-- name: "Koninklijke Philips N.V."
-  url: "https://www.usa.philips.com"
-  images:
-    - "/assets/images/sponsors/philips.png"
 - name: "Toyota Motor Corporation"
   url: "https://www.toyota.com"
   images:
@@ -79,3 +75,7 @@
   url: "https://www.toyotasystems.com/en/"
   images:
     - "/assets/images/sponsors/toyota-caelum-corporation-now-toyota-systems.jpeg"
+- name: "Koninklijke Philips N.V."
+  url: "https://www.usa.philips.com"
+  images:
+    - "/assets/images/sponsors/philips.png"
