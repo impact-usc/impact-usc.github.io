@@ -832,13 +832,15 @@ a:hover {
 
 .news-card-full figure {
   margin: 0;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   background: var(--paper);
   border-radius: var(--radius);
 }
 
 .news-card-full img {
-  width: 100%;
+  width: 80%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
