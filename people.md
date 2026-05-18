@@ -88,6 +88,7 @@ permalink: /people/
   <div class="section-heading">
     <p class="eyebrow">Alumni</p>
     <h2 id="former-lab-members-title">Former lab members</h2>
+    <p>Alumni information will be added soon.</p>
   </div>
 
   <div class="people-grid people-page-grid">
