@@ -82,3 +82,138 @@
   project_lead: []
   projects: []
   group: current
+- initials: XW
+  name: Xinrui (Serena) Wang
+  degree_year: Aug. 2025
+  thesis_short: ML-based work process knowledge capture and transfer.
+  profile_url: https://www.linkedin.com/in/xinrui-serena-wang-9995a3168/
+  group: alumni
+- initials: CH
+  name: Chuanhui (Chuck) Hu
+  degree_year: July 2024
+  thesis_short: Large-scale path planning and maneuvering with local information.
+  profile_url: https://www.linkedin.com/in/chuanhui-hu/
+  group: alumni
+- initials: YQ
+  name: Yunjian (Jojo) Qiu
+  degree_year: December 2023
+  thesis_short: Document understanding based design support.
+  profile_url: https://www.linkedin.com/in/yunjian-jojo-qiu-153358135/
+  group: alumni
+- initials: BH
+  name: Bingling Huang
+  degree_year: June 2023
+  thesis_short: Reward shaping and social learning in self-organizing systems.
+  profile_url: https://www.linkedin.com/in/bernice-huang-usc/
+  group: alumni
+- initials: ZZ
+  name: Zijian Zhang
+  degree_year: August 2022
+  thesis_short: Computer-aided visual analogy support for engineering design.
+  group: alumni
+- initials: HJ
+  name: Hao Ji
+  degree_year: August 2021
+  thesis_short: Designing self-organizing systems with multiagent deep reinforcement learning.
+  profile_url: https://www.linkedin.com/in/hao-ji-49b05985/
+  group: alumni
+- initials: HM
+  name: Hristina Milojevic
+  degree_year: December 2020
+  thesis_short: Social cognitive modeling of design thinking styles.
+  profile_url: https://www.linkedin.com/in/hristinamilojevic/
+  group: alumni
+- initials: XL
+  name: Xiongqing Liu
+  degree_year: August 2019
+  thesis_short: Transfer reinforcement learning for autonomous collision avoidance.
+  profile_url: https://www.linkedin.com/in/xiongqingliu/
+  group: alumni
+- initials: JH
+  name: James Humann
+  degree_year: November 2015
+  thesis_short: Behavioral modeling and synthesis of self-organizing systems.
+  profile_url: https://www.linkedin.com/in/jameshumann/
+  group: alumni
+- initials: NK
+  name: Newsha Khani
+  degree_year: November 2014
+  thesis_short: Dynamic social structuring in cellular self-organizing systems.
+  profile_url: https://www.linkedin.com/in/niuniu/
+  group: alumni
+- initials: JS
+  name: Jonathan Sauder
+  degree_year: November 2013
+  thesis_short: Collaborative stimulation in team design thinking.
+  profile_url: https://www.linkedin.com/in/jonathansauder/
+  group: alumni
+- initials: WC
+  name: Winston Chiang
+  degree_year: May 2012
+  thesis_short: Meta-interaction model for cellular self-organizing systems.
+  profile_url: https://www.linkedin.com/in/winstonchiang/
+  group: alumni
+- initials: CC
+  name: Chang Chen
+  degree_year: February 2012
+  thesis_short: Behavior regulation for cellular self-organizing systems.
+  profile_url: https://www.linkedin.com/in/chang-chen-16b0737/
+  group: alumni
+- initials: ZH
+  name: Zhaofeng Huang
+  degree_year: November 2010
+  thesis_short: Reliability design of complex systems from conceptual design.
+  profile_url: https://ieeexplore.ieee.org/author/37085595318
+  group: alumni
+- initials: MY
+  name: Majid Yahyaei
+  degree_year: May 2010
+  thesis_short: Modeling enterprise operations for productivity improvement.
+  profile_url: https://www.linkedin.com/in/majid-yahyaei-587aib9114/
+  group: alumni
+- initials: GZ
+  name: George Zouein
+  degree_year: May 2009
+  thesis_short: DNA-inspired cellular approach to complex adaptive systems.
+  profile_url: https://www.linkedin.com/in/george-zouein/
+  group: alumni
+- initials: MG
+  name: Mathieu Geslin
+  degree_year: May 2006
+  thesis_short: Argumentation-based negotiation for collaborative design.
+  profile_url: https://www.linkedin.com/in/mathieu-geslin-046a5840/
+  group: alumni
+- initials: WL
+  name: Wei Li
+  degree_year: May 2006
+  thesis_short: Hierarchical evolutionary approach to conceptual design.
+  profile_url: https://www.linkedin.com/in/wei-li-a126236/
+  group: alumni
+- initials: PC
+  name: Pawat Chusilp
+  degree_year: November 2004
+  thesis_short: Cognitive modeling of iterations in conceptual design.
+  group: alumni
+- initials: LZ
+  name: Li Zhao
+  degree_year: November 2002
+  thesis_short: Work-structure approach to collaborative engineering design.
+  group: alumni
+- initials: KW
+  name: Kai-Lu Wang
+  degree_year: August 2002
+  thesis_short: Analytical approach to functional design.
+  profile_url: https://www.linkedin.com/in/carl-kailu-wang-%E7%8E%8B%E5%87%B1%E9%AD%AF-74115b2b/
+  group: alumni
+- initials: OB
+  name: Oren Benami
+  degree_year: May 2002
+  thesis_short: Cognitive approach to creative conceptual design.
+  profile_url: https://www.linkedin.com/in/oren-benami-4484a41b/
+  group: alumni
+- initials: MD
+  name: Mohammad R. Danesh
+  degree_year: November 2001
+  thesis_short: Framework for value-based conceptual engineering design.
+  profile_url: https://www.linkedin.com/in/mdanesh/
+  group: alumni

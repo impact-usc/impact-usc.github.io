@@ -114,7 +114,6 @@ permalink: /people/
   <div class="section-heading">
     <p class="eyebrow">Alumni</p>
     <h2 id="former-lab-members-title">Former lab members</h2>
-    <p>Alumni information will be added soon.</p>
   </div>
 
   <div class="people-grid people-page-grid">
@@ -129,40 +128,19 @@ permalink: /people/
             <img class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
           {% endif %}
         {% else %}
-          <div class="avatar">{{ person.initials }}</div>
+          {% if person.profile_url %}
+            <a class="person-photo-link" href="{{ person.profile_url }}" aria-label="Open {{ person.name }} profile">
+              <div class="avatar">{{ person.initials }}</div>
+            </a>
+          {% else %}
+            <div class="avatar">{{ person.initials }}</div>
+          {% endif %}
         {% endif %}
         <h3>{{ person.name }}</h3>
-        <p>{{ person.role }}</p>
-        {% if person.office %}
-          <p class="person-meta">Office: {{ person.office }}</p>
+        <p class="person-meta">Ph.D.: {{ person.degree_year }}</p>
+        {% if person.thesis_short %}
+          <p class="alumni-thesis">{{ person.thesis_short }}</p>
         {% endif %}
-        {% if person.project_lead and person.project_lead.size > 0 %}
-          <div class="person-projects" aria-label="{{ person.name }} project lead">
-            <span>Project lead:</span>
-            {% for project_acronym in person.project_lead %}
-              {% assign project_match = site.data.projects | where: "acronym", project_acronym | first %}
-              {% if project_match %}
-                <a href="{{ '/projects/#' | append: project_match.anchor | relative_url }}">{{ project_match.acronym }}</a>
-              {% else %}
-                <span>{{ project_acronym }}</span>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-        {% if person.projects and person.projects.size > 0 %}
-          <div class="person-projects" aria-label="{{ person.name }} projects">
-            <span>Projects:</span>
-            {% for project_acronym in person.projects %}
-              {% assign project_match = site.data.projects | where: "acronym", project_acronym | first %}
-              {% if project_match %}
-                <a href="{{ '/projects/#' | append: project_match.anchor | relative_url }}">{{ project_match.acronym }}</a>
-              {% else %}
-                <span>{{ project_acronym }}</span>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-        <a href="{{ person.url }}">{{ person.link_label }}</a>
       </article>
     {% endfor %}
   </div>
