@@ -86,134 +86,203 @@
   name: Xinrui (Serena) Wang
   degree_year: Aug. 2025
   thesis_short: ML-based work process knowledge capture and transfer.
+  image: /assets/images/people/former/serena.jpg
+  current_title: Data & Applied Scientist
+  current_company: Microsoft Corp.
   profile_url: https://www.linkedin.com/in/xinrui-serena-wang-9995a3168/
   group: alumni
 - initials: CH
   name: Chuanhui (Chuck) Hu
   degree_year: July 2024
   thesis_short: Large-scale path planning and maneuvering with local information.
+  image: /assets/images/people/former/avatar.png
+  current_title: Machine Learning Scientist
+  current_company: PingDuoDuo
   profile_url: https://www.linkedin.com/in/chuanhui-hu/
   group: alumni
 - initials: YQ
   name: Yunjian (Jojo) Qiu
   degree_year: December 2023
   thesis_short: Document understanding based design support.
+  image: /assets/images/people/former/jojo.jpg
+  current_title: Assistant Professor
+  current_company: San Jose State University
   profile_url: https://www.linkedin.com/in/yunjian-jojo-qiu-153358135/
   group: alumni
 - initials: BH
   name: Bingling Huang
   degree_year: June 2023
   thesis_short: Reward shaping and social learning in self-organizing systems.
+  image: /assets/images/people/former/bernice.jpg
+  current_title: Assistant Professor
+  current_company: California State University, Fullerton
   profile_url: https://www.linkedin.com/in/bernice-huang-usc/
   group: alumni
 - initials: ZZ
   name: Zijian Zhang
   degree_year: August 2022
   thesis_short: Computer-aided visual analogy support for engineering design.
+  image: /assets/images/people/former/avatar.png
+  current_title: Senior Research Scientist
+  current_company: Meta Corporation
   group: alumni
 - initials: HJ
   name: Hao Ji
   degree_year: August 2021
   thesis_short: Designing self-organizing systems with multiagent deep reinforcement learning.
+  image: /assets/images/people/former/hao.jpg
+  current_title: Data Scientist
+  current_company: USC Information Technology & Systems Division
   profile_url: https://www.linkedin.com/in/hao-ji-49b05985/
   group: alumni
 - initials: HM
   name: Hristina Milojevic
   degree_year: December 2020
   thesis_short: Social cognitive modeling of design thinking styles.
+  image: /assets/images/people/former/hristina.png
+  current_title: Product Manager
+  current_company: Genentech
   profile_url: https://www.linkedin.com/in/hristinamilojevic/
   group: alumni
 - initials: XL
   name: Xiongqing Liu
   degree_year: August 2019
   thesis_short: Transfer reinforcement learning for autonomous collision avoidance.
+  image: /assets/images/people/former/vincent.jpg
+  current_title: Senior Machine Learning Engineer
+  current_company: Tencent Corporation
   profile_url: https://www.linkedin.com/in/xiongqingliu/
   group: alumni
 - initials: JH
   name: James Humann
   degree_year: November 2015
   thesis_short: Behavioral modeling and synthesis of self-organizing systems.
+  image: /assets/images/people/former/james.jpg
+  current_title: Mechanical Engineer
+  current_company: U.S. Army DEVCOM Army Research Laboratory
   profile_url: https://www.linkedin.com/in/jameshumann/
   group: alumni
 - initials: NK
   name: Newsha Khani
   degree_year: November 2014
   thesis_short: Dynamic social structuring in cellular self-organizing systems.
+  image: /assets/images/people/former/newsha.jpg
+  current_title: Machine Learning Engineer
+  current_company: Google
   profile_url: https://www.linkedin.com/in/niuniu/
   group: alumni
 - initials: JS
   name: Jonathan Sauder
   degree_year: November 2013
   thesis_short: Collaborative stimulation in team design thinking.
+  image: /assets/images/people/former/jonathan.jpg
+  current_title: Principal Spacecraft Engineer
+  current_company: Amazon
   profile_url: https://www.linkedin.com/in/jonathansauder/
   group: alumni
 - initials: WC
   name: Winston Chiang
   degree_year: May 2012
   thesis_short: Meta-interaction model for cellular self-organizing systems.
+  image: /assets/images/people/former/winston.jpg
+  current_title: Product Director of Machine Learning Platform
+  current_company: JPMorgan Chase
   profile_url: https://www.linkedin.com/in/winstonchiang/
   group: alumni
 - initials: CC
   name: Chang Chen
   degree_year: February 2012
   thesis_short: Behavior regulation for cellular self-organizing systems.
+  image: /assets/images/people/former/chang.jpg
+  current_title: Product Lead and Senior Software Engineer
+  current_company: Bloomberg
   profile_url: https://www.linkedin.com/in/chang-chen-16b0737/
   group: alumni
 - initials: ZH
   name: Zhaofeng Huang
   degree_year: November 2010
   thesis_short: Reliability design of complex systems from conceptual design.
+  image: /assets/images/people/former/avatar.png
+  current_title: Technical Fellow, Reliability & Statistics
+  current_company: Aerojet Rocketdyne
   profile_url: https://ieeexplore.ieee.org/author/37085595318
   group: alumni
 - initials: MY
   name: Majid Yahyaei
   degree_year: May 2010
   thesis_short: Modeling enterprise operations for productivity improvement.
-  profile_url: https://www.linkedin.com/in/majid-yahyaei-587aib9114/
+  image: /assets/images/people/former/majid.jpg
+  current_title: Control Software Engineer
+  current_company: Miyachi Unitek
+  profile_url: https://www.linkedin.com/in/majid-yahyaei-587b9114/
   group: alumni
 - initials: GZ
   name: George Zouein
   degree_year: May 2009
   thesis_short: DNA-inspired cellular approach to complex adaptive systems.
+  image: /assets/images/people/former/george.jpg
+  current_title: Senior Engineer & Group Leader
+  current_company: Honda R&D Americas
   profile_url: https://www.linkedin.com/in/george-zouein/
   group: alumni
 - initials: MG
   name: Mathieu Geslin
   degree_year: May 2006
   thesis_short: Argumentation-based negotiation for collaborative design.
+  image: /assets/images/people/former/mathieu.jpg
+  current_title: Department Manager & XR Lead
+  current_company: American Honda Motor Company, Inc.
   profile_url: https://www.linkedin.com/in/mathieu-geslin-046a5840/
   group: alumni
 - initials: WL
   name: Wei Li
   degree_year: May 2006
   thesis_short: Hierarchical evolutionary approach to conceptual design.
+  image: /assets/images/people/former/avatar.png
+  current_title: Principal Software Engineer
+  current_company: Operative
   profile_url: https://www.linkedin.com/in/wei-li-a126236/
   group: alumni
 - initials: PC
   name: Pawat Chusilp
   degree_year: November 2004
   thesis_short: Cognitive modeling of iterations in conceptual design.
+  image: /assets/images/people/former/avatar.png
+  current_title: Senior Research Scientist
+  current_company: Defense Technology Institute, Thailand
   group: alumni
 - initials: LZ
   name: Li Zhao
   degree_year: November 2002
   thesis_short: Work-structure approach to collaborative engineering design.
+  image: /assets/images/people/former/avatar.png
+  current_title: Senior Research Scientist
+  current_company: Zhejiang Advanced Manufacturing Institute of HKUST
   group: alumni
 - initials: KW
   name: Kai-Lu Wang
   degree_year: August 2002
   thesis_short: Analytical approach to functional design.
+  image: /assets/images/people/former/carl.jpg
+  current_title: R&D Director, Corporate Fellow
+  current_company: UL Solutions
   profile_url: https://www.linkedin.com/in/carl-kailu-wang-%E7%8E%8B%E5%87%B1%E9%AD%AF-74115b2b/
   group: alumni
 - initials: OB
   name: Oren Benami
   degree_year: May 2002
   thesis_short: Cognitive approach to creative conceptual design.
+  image: /assets/images/people/former/oren.jpg
+  current_title: CEO & Technical Director
+  current_company: Space Force Analytics LLC
   profile_url: https://www.linkedin.com/in/oren-benami-4484a41b/
   group: alumni
 - initials: MD
   name: Mohammad R. Danesh
   degree_year: November 2001
   thesis_short: Framework for value-based conceptual engineering design.
+  image: /assets/images/people/former/mohammad.jpg
+  current_title: VP of Engineering
+  current_company: Vistify Inc.
   profile_url: https://www.linkedin.com/in/mdanesh/
   group: alumni

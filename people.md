@@ -20,7 +20,8 @@ permalink: /people/
   <nav class="people-jump-bar" aria-label="Jump to people section">
     <a href="#lab-members-title">Lab Members</a>
     <a href="#collaborators-title">Collaborators</a>
-    <a href="#former-lab-members-title">Former Lab Members</a>
+    <a href="#former-phd-members-title">Former PhD Members</a>
+    <a href="#former-ms-ug-members-title">Former MS/UG Members</a>
   </nav>
 
   {% assign lab_members = site.data.people | where: "group", "current" %}
@@ -110,10 +111,10 @@ permalink: /people/
   </div>
   </section>
 
-  <section class="people-type-section people-alumni" aria-labelledby="former-lab-members-title">
+  <section class="people-type-section people-alumni" aria-labelledby="former-phd-members-title">
   <div class="section-heading">
     <p class="eyebrow">Alumni</p>
-    <h2 id="former-lab-members-title">Former lab members</h2>
+    <h2 id="former-phd-members-title">Former PhD members</h2>
   </div>
 
   <div class="people-grid people-page-grid">
@@ -141,8 +142,21 @@ permalink: /people/
         {% if person.thesis_short %}
           <p class="alumni-thesis">{{ person.thesis_short }}</p>
         {% endif %}
+        {% if person.current_title or person.current_company %}
+          <p class="alumni-current">
+            {% if person.current_title %}<strong>{{ person.current_title }}</strong>{% endif %}{% if person.current_title and person.current_company %} at {% endif %}{% if person.current_company %}{{ person.current_company }}{% endif %}
+          </p>
+        {% endif %}
       </article>
     {% endfor %}
+  </div>
+  </section>
+
+  <section class="people-type-section people-alumni" aria-labelledby="former-ms-ug-members-title">
+  <div class="section-heading">
+    <p class="eyebrow">Alumni</p>
+    <h2 id="former-ms-ug-members-title">Former MS/UG members</h2>
+    <p>Information will be added soon.</p>
   </div>
   </section>
 </section>
