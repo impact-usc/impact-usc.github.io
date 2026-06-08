@@ -1,3 +1,25 @@
+- date: 2026-06-08
+  title: New Springer book available for pre-order
+  image: /assets/images/news/machine-learning-engineering-applications-cover.jpg
+  alt: Cover of Machine Learning for Engineering Applications by Yan Jin.
+  summary: Prof. Yan Jin's new Springer book, Machine Learning for Engineering Applications, is now available for pre-order on Amazon.
+  description: >-
+    Prof. Yan Jin's new book, "Machine Learning for Engineering Applications,"
+    is now available for pre-order from Springer. Written for engineers and
+    engineering students, the book introduces the mathematical foundations and
+    core concepts of machine learning in an accessible, engineering-centered
+    way, with methods connected throughout to engineering scenarios and
+    real-world datasets. The book addresses a growing need for resources that
+    teach machine learning from the perspective of engineering applications,
+    including smart manufacturing, sensor-rich infrastructure, predictive
+    maintenance, autonomous systems, and intelligent product design. In addition
+    to theoretical derivations, the book emphasizes hands-on Python
+    implementation and covers emerging topics such as physics-informed neural
+    networks and agentic architectures for engineering problems. The hardcover
+    edition is scheduled for publication by Springer on August 12, 2026.
+  links:
+    - label: Pre-order on Amazon
+      url: https://www.amazon.com/Machine-Learning-Engineering-Applications-Yan/dp/3032295114
 - date: 2026-05-17
   title: USC IMPACT LAB launches new GitHub-hosted website
   image: /assets/images/hero-images/hero-1.jpeg
