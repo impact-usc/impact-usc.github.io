@@ -25,11 +25,11 @@ permalink: /publications/
   {% assign other_papers = site.data.publications | where: "type", "other" %}
 
   <nav class="publication-jump-bar" aria-label="Jump to publication section">
-    <a href="#recent-papers-title">Recent Papers</a>
-    <a href="#journal-papers-title">Journal Papers</a>
-    <a href="#book-chapters-title">Book Chapters</a>
-    <a href="#conference-papers-title">Conference Papers</a>
-    <a href="#other-papers-title">Other Papers</a>
+    <a href="#recent-papers-title">Recent</a>
+    <a href="#journal-papers-title">Journal</a>
+    <a href="#book-chapters-title">Book Chapter</a>
+    <a href="#conference-papers-title">Conference</a>
+    <a href="#other-papers-title">Other</a>
   </nav>
 
   <section class="publication-type-section" aria-labelledby="recent-papers-title">
