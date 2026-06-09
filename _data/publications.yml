@@ -1,4 +1,28 @@
 # Generated from assets/publications.bib, assets/pub-addition1.bib, and enriched with DOI links from Crossref.
+- key: "Ni_2026"
+  year: 2026
+  type: "conference"
+  title: "A Phase-I Benchmark of Self-Organizing Manufacturing Control Under Heterogeneity and Volatility"
+  citation: "Jian Ni, Shih-Chun Deng, Yan Jin. <em>Proceedings of the ASME 2026 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2026)</em>. 2026."
+  links:
+    - label: "URL"
+      url: "/assets/documents/DETC2026-194209-JN-SD-YJ.pdf"
+- key: "Aryashad_2026"
+  year: 2026
+  type: "conference"
+  title: "SEMAA: An Agentic AI Approach to System Modeling"
+  citation: "Ardalan Aryashad, Rufus Marcussen, Yan Jin. <em>Proceedings of the ASME 2026 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2026)</em>. 2026."
+  links:
+    - label: "URL"
+      url: "/assets/documents/DETC2026-194240-AA-RM-YJ.pdf"
+- key: "Sourani_2026"
+  year: 2026
+  type: "conference"
+  title: "Domain Knowledge Acquisition in AI-Assisted Systems Engineering"
+  citation: "Sara Sourani Yancheshmeh, Shih-Chun Deng, Yan Jin. <em>Proceedings of the ASME 2026 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2026)</em>. 2026."
+  links:
+    - label: "URL"
+      url: "/assets/documents/DETC2026-194314-SY-SD-YJ.pdf"
 - key: "SUZUKI_2026"
   year: 2026
   type: "journal"
