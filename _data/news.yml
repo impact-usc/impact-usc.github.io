@@ -1,10 +1,11 @@
 - date: 2026-06-08
   title: New Springer book available for pre-order
   image: /assets/images/news/machine-learning-engineering-applications-cover.jpg
+  image_fit: contain
   alt: Cover of Machine Learning for Engineering Applications by Yan Jin.
   summary: Prof. Yan Jin's new Springer book, Machine Learning for Engineering Applications, is now available for pre-order on Amazon.
   description: >-
-    Prof. Yan Jin's new book, "Machine Learning for Engineering Applications,"
+    Prof. Yan Jin's new book, <strong>Machine Learning for Engineering Applications</strong>,
     is now available for pre-order from Springer. Written for engineers and
     engineering students, the book introduces the mathematical foundations and
     core concepts of machine learning in an accessible, engineering-centered

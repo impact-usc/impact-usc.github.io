@@ -167,7 +167,7 @@ a:hover {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 3.25rem 0;
 }
 
 .section-band {
@@ -351,7 +351,7 @@ a:hover {
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 2.3rem;
+  margin-bottom: 1.55rem;
 }
 
 .section-heading h2,
@@ -384,11 +384,24 @@ a:hover {
   margin-top: 0;
 }
 
-#research,
-#people,
+#people {
+  background: var(--soft);
+  padding: 3.25rem 0;
+}
+
 #news {
   background: var(--soft);
-  padding: 5rem 0;
+  padding: 3.25rem 0;
+}
+
+#research {
+  background: var(--paper);
+  padding: 3.25rem 0;
+}
+
+.projects {
+  background: var(--soft);
+  padding: 3.25rem 0;
 }
 
 .theme-grid,
@@ -415,9 +428,44 @@ a:hover {
 }
 
 .theme-card {
-  min-height: 280px;
+  min-height: 0;
+  padding: 1.5em 1.3rem 0;
   display: flex;
   flex-direction: column;
+}
+
+.theme-card-link {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.theme-card:hover {
+  border-color: rgba(153, 0, 0, 0.32);
+  box-shadow: 0 12px 32px rgba(45, 18, 10, 0.08);
+}
+
+.theme-card-link:hover h3 {
+  color: var(--usc-cardinal);
+}
+
+.theme-card-link:focus-visible {
+  border-radius: var(--radius);
+  outline: 3px solid var(--usc-cardinal);
+  outline-offset: 4px;
+}
+
+.news-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-card-link:hover h3 {
+  color: var(--usc-cardinal);
 }
 
 .card-index,
@@ -869,6 +917,10 @@ a:hover {
   background: transparent;
 }
 
+.news-card-full figure.image-contain {
+  justify-content: center;
+}
+
 .news-card-full figure.is-portrait {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -884,6 +936,12 @@ a:hover {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.news-card-full figure.image-contain img {
+  width: min(72%, 260px);
+  height: auto;
+  object-fit: contain;
 }
 
 .news-card-full time {
@@ -1220,7 +1278,13 @@ a:hover {
   }
 
   .section {
-    padding: 3.5rem 0;
+    padding: 2.3rem 0;
+  }
+
+  #research,
+  #people,
+  #news {
+    padding: 2.3rem 0;
   }
 
   .hero-actions,

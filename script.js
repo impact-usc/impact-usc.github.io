@@ -79,6 +79,10 @@ if (slides.length > 1) {
 
 document.querySelectorAll(".news-card-full figure img").forEach((image) => {
   const markPortrait = () => {
+    if (image.parentElement?.classList.contains("image-contain")) {
+      return;
+    }
+
     image.parentElement?.classList.toggle(
       "is-portrait",
       image.naturalHeight > image.naturalWidth

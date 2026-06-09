@@ -19,9 +19,10 @@ permalink: /news/
 <section class="section news-page" aria-label="News items">
   <div class="news-list">
     {% for item in site.data.news %}
-      <article class="news-card-full">
+      {% assign news_anchor = item.date | date: "%Y-%m-%d" | append: "-" | append: item.title | slugify %}
+      <article class="news-card-full" id="{{ news_anchor }}">
         {% if item.image %}
-          <figure>
+          <figure{% if item.image_fit == "contain" %} class="image-contain"{% endif %}>
             <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}">
           </figure>
         {% endif %}
