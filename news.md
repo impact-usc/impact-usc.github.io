@@ -23,7 +23,9 @@ permalink: /news/
       <article class="news-card-full" id="{{ news_anchor }}">
         {% if item.image %}
           <figure{% if item.image_fit == "contain" %} class="image-contain"{% endif %}>
-            <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}">
+            <a class="news-image-link" href="{{ item.image | relative_url }}">
+              <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}">
+            </a>
           </figure>
         {% endif %}
         <div class="news-card-content">

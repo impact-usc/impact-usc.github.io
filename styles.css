@@ -921,6 +921,11 @@ a:hover {
   justify-content: center;
 }
 
+.news-image-link {
+  display: block;
+  width: 100%;
+}
+
 .news-card-full figure.is-portrait {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -942,6 +947,10 @@ a:hover {
   width: min(72%, 260px);
   height: auto;
   object-fit: contain;
+}
+
+.news-card-full figure.image-contain .news-image-link {
+  width: auto;
 }
 
 .news-card-full time {
