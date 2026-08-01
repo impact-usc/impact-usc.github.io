@@ -1,3 +1,23 @@
+- date: 2026-07-31
+  title: ML4EA book companion portal launched
+  image: /assets/images/news/ml4ea-companion-portal.png
+  alt: Screenshot of the Machine Learning for Engineering Applications companion portal homepage.
+  summary: The companion portal for Prof. Yan Jin's Machine Learning for Engineering Applications book is now live with learning resources, chapter guidance, application examples, instructor materials, and community resources.
+  description: >-
+    The companion portal for Prof. Yan Jin's book <strong>Machine Learning for
+    Engineering Applications</strong> is now live. The portal connects the
+    book's mathematical foundations, modern machine learning methods, and
+    engineering judgment through practical examples and supporting resources.
+    It provides multiple entry points for students, readers, verified
+    instructors, and the broader engineering community, including chapter
+    guidance, learning resources, an Application Examples catalog, teaching
+    support, errata, updates, and ways to contribute new examples and
+    resources. The portal is intended to serve as a living extension of the
+    book, helping readers move from concepts to executable engineering
+    applications.
+  links:
+    - label: Visit portal
+      url: https://ml4ea.github.io
 - date: 2026-07-29
   title: SmartSOM NSF project funded
   image: /assets/images/news/smartsom-nsf-award-square.png
