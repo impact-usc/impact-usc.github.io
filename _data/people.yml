@@ -42,6 +42,17 @@
   project_lead: [AIDIO]
   projects: [SEMAA, AIPM]
   group: current
+- initials: SD
+  name: Shih-Chun (Morris) Deng
+  role: Ph.D. student & Graduate Research Assistant
+  office: VHE-213
+  image: /assets/images/people/morris.png
+  profile_url: https://www.linkedin.com/in/shih-chun-deng/?locale=en
+  url: mailto:dengshih@usc.edu
+  link_label: dengshih@usc.edu
+  project_lead: [AIPM]
+  projects: [SEMAA, AIDIO]
+  group: current
 - initials: RM
   name: Rufus Marcuss
   role: MSAE student & Research Participant
@@ -52,17 +63,6 @@
   project_lead: []
   projects: [SEMAA, AIPM]
   group: current
-- initials: SD
-  name: Shih-Chun (Morris) Deng
-  role: MSME student & Research Participant
-  office: VHE-213
-  image: /assets/images/people/morris.png
-  profile_url: https://www.linkedin.com/in/shih-chun-deng/?locale=en
-  url: mailto:dengshih@usc.edu
-  link_label: dengshih@usc.edu
-  project_lead: [AIPM]
-  projects: [SEMAA, AIDIO]
-  group: current
 - initials: DY
   name: Dezhao (Derick) Yu
   role: MSME student & Research Participant
@@ -71,7 +71,47 @@
   url: mailto:dezhaoyu@usc.edu
   link_label: dezhaoyu@usc.edu
   project_lead: []
-  projects: []
+  projects: [SEMAA]
+  group: current
+- initials: SY
+  name: Soowhan (Steve) Yi
+  role: MSME student & Research Participant
+  office: VHE-213
+  image: /assets/images/people/steve.png
+  url: mailto:soowhany@usc.edu
+  link_label: soowhany@usc.edu
+  project_lead: []
+  projects: [VLAG]
+  group: current
+- initials: YW
+  name: Yiyang (Justin) Wang
+  role: MSME student & Research Participant
+  office: VHE-213
+  image: /assets/images/people/justin.png
+  url: mailto:wangyiya@usc.edu
+  link_label: wangyiya@usc.edu
+  project_lead: []
+  projects: [SmartSOM]
+  group: current
+- initials: LD
+  name: Li-Hsin (Chris) Den
+  role: MSME student & Research Participant
+  office: VHE-213
+  image: /assets/images/people/chris.png
+  url: mailto:lden@usc.edu
+  link_label: lden@usc.edu
+  project_lead: []
+  projects: [VLAG]
+  group: current
+- initials: AB
+  name: Aaron Benedek
+  role: MSME student & Research Participant
+  office: VHE-213
+  image: /assets/images/people/aaron.png
+  url: mailto:abenedek@usc.edu
+  link_label: abenedek@usc.edu
+  project_lead: []
+  projects: [AIDIO]
   group: current
 - initials: CW
   name: Charles Wu

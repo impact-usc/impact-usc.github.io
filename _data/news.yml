@@ -1,3 +1,45 @@
+- date: 2026-09-15
+  title: IMPACT LAB welcomes new members
+  image: /assets/images/news/welcome-new-members-fall-2026.jpeg
+  alt: IMPACT LAB members gathered in a conference room to welcome new lab members.
+  summary: IMPACT LAB welcomes new master's students Soowhan (Steve) Yi, Yiyang (Justin) Wang, Li-Hsin (Chris) Den, and Aaron Benedek.
+  description: >-
+    USC IMPACT LAB is excited to welcome four new members: Soowhan (Steve) Yi,
+    Yiyang (Justin) Wang, Li-Hsin (Chris) Den, and Aaron Benedek. Steve is an
+    M.S. student in Mechanical Engineering who graduated with a B.S. in
+    Mathematics from Emory University and a B.S. in Mechanical Engineering from
+    Georgia Tech. Justin is an M.S. student in Mechanical Engineering who
+    graduated with a B.S. from the University of Illinois Urbana-Champaign.
+    Chris is an M.S. student in Mechanical Engineering who graduated with a
+    B.S. in Environmental Engineering from National Cheng Kung University in
+    Taiwan. Aaron is an M.S. student in Mechanical Engineering who graduated
+    with a B.S. in Bioengineering and Biomedical Engineering from USC. We are
+    delighted to have them join IMPACT LAB and look forward to collaborating
+    with all of them on ongoing and new research projects.
+- date: 2026-08-28
+  title: IMPACT LAB presents three papers at IDETC/CIE 2026
+  image: /assets/images/news/idetc-2026-houston.png
+  alt: IMPACT LAB members at IDETC/CIE 2026 in Houston, Texas, including group and presentation photos.
+  summary: Prof. Yan Jin and Ph.D. students Ardalan Aryashad, Sara Sourani, and Shih-Chun (Morris) Deng attended IDETC/CIE 2026 in Houston, where the students presented three IMPACT LAB papers.
+  description: >-
+    Prof. Yan Jin and Ph.D. students Ardalan Aryashad, Sara Sourani, and
+    Shih-Chun (Morris) Deng attended the ASME International Design Engineering
+    Technical Conferences and Computers and Information in Engineering
+    Conference (IDETC/CIE 2026), held August 23-26, 2026 in Houston, Texas.
+    Ardalan, Sara, and Morris each presented a paper from IMPACT LAB's recent
+    research on agentic AI for system modeling, domain knowledge acquisition
+    for AI-assisted systems engineering, and self-organizing manufacturing
+    control. The conference provided an excellent opportunity for IMPACT LAB
+    members to exchange ideas with leading design and engineering researchers
+    from around the world, reconnect with longtime colleagues, and make new
+    friends across the international design engineering community.
+  links:
+    - label: SEMAA paper
+      url: /assets/documents/DETC2026-194240-AA-RM-YJ.pdf
+    - label: Domain knowledge paper
+      url: /assets/documents/DETC2026-194314-SY-SD-YJ.pdf
+    - label: SmartSOM benchmark paper
+      url: /assets/documents/DETC2026-194209-JN-SD-YJ.pdf
 - date: 2026-07-31
   title: ML4EA book companion portal launched
   image: /assets/images/news/ml4ea-companion-portal.png

@@ -78,7 +78,9 @@ permalink: /people/
             {% endfor %}
           </div>
         {% endif %}
-        <a href="{{ person.url }}">{{ person.link_label }}</a>
+        {% if person.url and person.link_label %}
+          <a href="{{ person.url }}">{{ person.link_label }}</a>
+        {% endif %}
       </article>
     {% endfor %}
   </div>
